@@ -1,0 +1,69 @@
+<?php
+require_once __DIR__ . '/../config/helpers.php';
+require_once __DIR__ . '/../config/database.php';
+
+// Start session if not started already
+initSession();
+
+// Check if the form was submitted
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    setFlashMessage('error', 'Invalid request method');
+    redirect('login.php');
+}
+
+// Get and sanitize form data
+$email = sanitizeInput($_POST['email'] ?? '');
+$password = $_POST['password'] ?? '';
+
+// Basic validation
+if (empty($email) || empty($password)) {
+    setFlashMessage('error', 'Email and password are required');
+    redirect('login.php');
+}
+
+if (!isValidEmail($email)) {
+    setFlashMessage('error', 'Invalid email format');
+    redirect('login.php');
+}
+
+try {
+    // Get the database connection
+    $db = Database::getInstance();
+    
+    // Check if the user exists
+    $user = $db->selectOne(
+        "SELECT id, email, password, first_name, last_name, role FROM users WHERE email = ? AND status = 'active'",
+        [$email]
+    );
+    
+    // If user doesn't exist or password doesn't match
+    if (!$user || !password_verify($password, $user['password'])) {
+        setFlashMessage('error', 'Invalid email or password');
+        redirect('login.php');
+    }
+    
+    // Set session data
+    $_SESSION['user_id'] = $user['id'];
+    $_SESSION['role'] = $user['role']; // Explicitly set the role at the top level of session
+    $_SESSION['user'] = [
+        'id' => $user['id'],
+        'email' => $user['email'],
+        'full_name' => $user['first_name'] . ' ' . $user['last_name'],
+        'role' => $user['role']
+    ];
+    
+    // Redirect based on role
+    if ($user['role'] === 'admin') {
+        redirect('../admin/dashboard.php');
+    } else {
+        redirect('../client/client_dashboard.php');
+    }
+
+} catch (Exception $e) {
+    // Log the error (in a real application)
+    error_log('Login error: ' . $e->getMessage());
+    
+    // Display generic error message to the user
+    setFlashMessage('error', 'An error occurred while processing your request. Please try again.');
+    redirect('login.php');
+}

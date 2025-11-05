@@ -1,0 +1,207 @@
+/* VehicSmart Custom Styles - Phase 4 */
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Utility Classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
+
+/* Card Improvements */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Button Enhancements */
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+    border: none;
+}
+
+/* Form Improvements */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    padding: 12px 16px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Table Enhancements */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Badge Improvements */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Alert Improvements */
+.alert {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading Spinner */
+.spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #667eea;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Dashboard Stats Cards */
+.stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Sidebar Improvements */
+.sidebar {
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 4px 8px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+/* Toast Notifications */
+.toast {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Progress Bar */
+.progress {
+    height: 10px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.progress-bar {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}

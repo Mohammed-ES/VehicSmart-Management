@@ -1,0 +1,105 @@
+# VehicSmart - GitIgnore Configuration
+
+# ==============================================
+# Configuration Files (Credentials)
+# ==============================================
+config/config.php
+config/database.php
+.env
+.env.local
+
+# ==============================================
+# Upload Directories
+# ==============================================
+uploads/
+uploads/vehicles/
+uploads/users/
+uploads/documents/
+
+# ==============================================
+# Temporary Files
+# ==============================================
+*.tmp
+*.temp
+*.log
+*.cache
+
+# ==============================================
+# Development & Debug Files
+# ==============================================
+debug_*.php
+test_*.php
+check_*.php
+setup_*.php
+*_test.php
+*_debug.php
+
+# ==============================================
+# Documentation temporaire
+# ==============================================
+*_COMPLETE.md
+*_REPORT.md
+*_SUMMARY.md
+PROGRESSION.md
+RAPPORT_*.md
+VERIFICATION_*.md
+
+# ==============================================
+# IDE & Editor Files
+# ==============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ==============================================
+# Composer
+# ==============================================
+/vendor/
+composer.lock
+
+# ==============================================
+# Node.js
+# ==============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ==============================================
+# System Files
+# ==============================================
+.htaccess.local
+php.ini.local
+
+# ==============================================
+# Database Dumps & Backups
+# ==============================================
+*.sql.gz
+*.sql.zip
+backup/
+backups/
+*.bak
+
+# ==============================================
+# Session Files
+# ==============================================
+sessions/
+tmp/
+
+# ==============================================
+# Cache Directories
+# ==============================================
+cache/
+storage/cache/
+
+# ==============================================
+# Files spécifiques VehicSmart à ignorer
+# ==============================================
+admin/system_diagnostic.php
+admin/delete_*.php
+admin/add_vehicle_illustrations.php
+database/migrations/add_messaging_system.php
+database/migrations/add_user_notification_preferences.php

@@ -1,0 +1,120 @@
+<?php
+/**
+ * API Configuration - VehicSmart
+ * Configuration pour l'API REST
+ */
+
+// Gestion des erreurs
+$is_production = false;
+
+if ($is_production) {
+    error_reporting(0);
+    ini_set('display_errors', 0);
+    ini_set('log_errors', 1);
+    ini_set('error_log', __DIR__ . '/../../logs/api_errors.log');
+} else {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+}
+
+// Constantes
+define('API_VERSION', '1.0.0');
+define('PROJECT_ROOT', realpath(dirname(__FILE__) . '/../../'));
+define('UPLOADS_DIR', PROJECT_ROOT . '/uploads');
+
+// Fuseau horaire
+date_default_timezone_set('UTC');
+
+// Configuration de la base de données
+$db_config = [
+    'host' => 'localhost',
+    'dbname' => 'vehicsmart',
+    'username' => 'root',
+    'password' => '',
+    'port' => '3307',
+    'charset' => 'utf8mb4'
+];
+
+/**
+ * Envoyer une réponse JSON
+ */
+function sendResponse($status, $message, $data = []) {
+    http_response_code($status);
+    
+    $response = [
+        'status' => $status,
+        'message' => $message,
+        'timestamp' => date('c')
+    ];
+    
+    if (!empty($data)) {
+        $response['data'] = $data;
+    }
+    
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+    exit();
+}
+
+/**
+ * Envoyer une réponse de succès
+ */
+function sendSuccess($message, $data = []) {
+    sendResponse(200, $message, $data);
+}
+
+/**
+ * Envoyer une réponse d'erreur
+ */
+function sendError($message, $status = 400, $data = []) {
+    sendResponse($status, $message, $data);
+}
+
+/**
+ * Valider les données JSON
+ */
+function getJsonInput() {
+    $input = file_get_contents('php://input');
+    $data = json_decode($input, true);
+    
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        sendError('JSON invalide', 400);
+    }
+    
+    return $data;
+}
+
+/**
+ * Vérifier les champs requis
+ */
+function validateRequired($data, $requiredFields) {
+    $missing = [];
+    
+    foreach ($requiredFields as $field) {
+        if (!isset($data[$field]) || empty($data[$field])) {
+            $missing[] = $field;
+        }
+    }
+    
+    if (!empty($missing)) {
+        sendError('Champs manquants: ' . implode(', ', $missing), 400);
+    }
+}
+
+/**
+ * Logger les erreurs API
+ */
+function logApiError($message, $context = []) {
+    $logFile = PROJECT_ROOT . '/logs/api_' . date('Y-m-d') . '.log';
+    
+    $logEntry = [
+        'timestamp' => date('Y-m-d H:i:s'),
+        'message' => $message,
+        'context' => $context,
+        'endpoint' => $_SERVER['REQUEST_URI'] ?? 'unknown',
+        'method' => $_SERVER['REQUEST_METHOD'] ?? 'unknown',
+        'ip' => $_SERVER['REMOTE_ADDR'] ?? 'unknown'
+    ];
+    
+    file_put_contents($logFile, json_encode($logEntry) . PHP_EOL, FILE_APPEND);
+}

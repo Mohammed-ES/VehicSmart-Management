@@ -1,0 +1,82 @@
+<?php
+require_once __DIR__ . '/../config/helpers.php';
+require_once __DIR__ . '/../config/database.php';
+
+// Start session if not started already
+initSession();
+
+// Check if the form was submitted
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    setFlashMessage('error', 'Invalid request method');
+    redirect('register.php');
+}
+
+// Get and sanitize form data
+$fullName = sanitizeInput($_POST['full_name'] ?? '');
+$email = sanitizeInput($_POST['email'] ?? '');
+$phone = sanitizeInput($_POST['phone'] ?? '');
+$password = $_POST['password'] ?? '';
+$confirmPassword = $_POST['confirm_password'] ?? '';
+
+// Split full name into first and last name
+$nameParts = explode(' ', $fullName, 2);
+$firstName = $nameParts[0] ?? '';
+$lastName = $nameParts[1] ?? '';
+
+// Basic validation
+if (empty($fullName) || empty($email) || empty($password)) {
+    setFlashMessage('error', 'All required fields must be completed');
+    redirect('register.php');
+}
+
+if (!isValidEmail($email)) {
+    setFlashMessage('error', 'Invalid email format');
+    redirect('register.php');
+}
+
+if (strlen($password) < 8) {
+    setFlashMessage('error', 'Password must be at least 8 characters long');
+    redirect('register.php');
+}
+
+if ($password !== $confirmPassword) {
+    setFlashMessage('error', 'Passwords do not match');
+    redirect('register.php');
+}
+
+try {
+    // Get the database connection
+    $db = Database::getInstance();
+    
+    // Check if the email already exists
+    $existingUser = $db->selectOne(
+        "SELECT id FROM users WHERE email = ?",
+        [$email]
+    );
+    
+    if ($existingUser) {
+        setFlashMessage('error', 'This email address is already registered');
+        redirect('register.php');
+    }
+    
+    // Hash the password
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    
+    // Insert the new user
+    $userId = $db->insert(
+        "INSERT INTO users (first_name, last_name, email, password, phone, role) VALUES (?, ?, ?, ?, ?, ?)",
+        [$firstName, $lastName, $email, $hashedPassword, $phone, 'client']
+    );
+    
+    // Set success message
+    setFlashMessage('success', 'Account created successfully! You can now log in.');
+    redirect('login.php');
+
+} catch (Exception $e) {
+    // Log the error (in a real application)
+    error_log('Registration error: ' . $e->getMessage());
+    
+    // Display generic error message to the user
+    setFlashMessage('error', 'An error occurred while creating your account. Please try again.');
+    redirect('register.php');
+}

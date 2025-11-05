@@ -1,0 +1,276 @@
+<?php
+/**
+ * API Configuration
+ * 
+ * Core settings and utilities for the VehicSmart API
+ */
+
+// Error reporting (disable in production)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Define constants
+define('API_VERSION', '1.0.0');
+define('PROJECT_ROOT', realpath(dirname(__FILE__) . '/../../'));
+define('UPLOADS_DIR', PROJECT_ROOT . '/uploads');
+
+// Set default timezone
+date_default_timezone_set('UTC');
+
+// Database credentials
+$db_config = [
+    'host' => 'localhost',
+    'dbname' => 'vehicsmart',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8mb4'
+];
+
+/**
+ * API response helper function
+ * 
+ * @param int $status HTTP status code
+ * @param string $message Response message
+ * @param array $data Optional data to include in response
+ * @return void Outputs JSON and exits
+ */
+function sendResponse($status, $message, $data = []) {
+    http_response_code($status);
+    
+    $response = [
+        'status' => $status,
+        'message' => $message
+    ];
+    
+    if (!empty($data)) {
+        $response['data'] = $data;
+    }
+    
+    header('Content-Type: application/json');
+    echo json_encode($response);
+    exit;
+}
+
+/**
+ * Validate if request is AJAX/API
+ * 
+ * @return bool True if valid API request
+ */
+function isValidApiRequest() {
+    $headers = getallheaders();
+    $requestedWith = isset($headers['X-Requested-With']) ? $headers['X-Requested-With'] : '';
+    $acceptHeader = isset($headers['Accept']) ? $headers['Accept'] : '';
+    
+    return (
+        $requestedWith === 'XMLHttpRequest' || 
+        strpos($acceptHeader, 'application/json') !== false
+    );
+}
+
+/**
+ * Get and sanitize input data
+ * 
+ * @param string $method Request method (GET, POST, etc.)
+ * @param array $required Array of required fields
+ * @return array Sanitized input data
+ */
+function getInputData($method = 'POST', $required = []) {
+    $data = [];
+    
+    // Get input data based on method
+    switch (strtoupper($method)) {
+        case 'GET':
+            $input = $_GET;
+            break;
+        case 'POST':
+            // Check for JSON input
+            $jsonInput = file_get_contents('php://input');
+            if (!empty($jsonInput)) {
+                $decoded = json_decode($jsonInput, true);
+                $input = $decoded !== null ? $decoded : $_POST;
+            } else {
+                $input = $_POST;
+            }
+            break;
+        default:
+            $input = $_REQUEST;
+    }
+    
+    // Sanitize and validate required fields
+    $missing = [];
+    
+    foreach ($required as $field) {
+        if (!isset($input[$field]) || (is_string($input[$field]) && trim($input[$field]) === '')) {
+            $missing[] = $field;
+        } else {
+            $data[$field] = sanitizeInput($input[$field]);
+        }
+    }
+    
+    // Add optional fields if present
+    foreach ($input as $key => $value) {
+        if (!in_array($key, $required)) {
+            $data[$key] = sanitizeInput($value);
+        }
+    }
+    
+    // Check for missing required fields
+    if (!empty($missing)) {
+        sendResponse(400, 'Missing required fields: ' . implode(', ', $missing));
+    }
+    
+    return $data;
+}
+
+/**
+ * Sanitize input data
+ * 
+ * @param mixed $input Input to sanitize
+ * @return mixed Sanitized input
+ */
+function sanitizeInput($input) {
+    if (is_array($input)) {
+        foreach ($input as $key => $value) {
+            $input[$key] = sanitizeInput($value);
+        }
+    } else {
+        // Strip tags and trim
+        $input = trim(strip_tags($input));
+    }
+    
+    return $input;
+}
+
+/**
+ * Verify JWT token
+ * 
+ * @return array|false User data if valid token, false otherwise
+ */
+function verifyToken() {
+    $headers = getallheaders();
+    $token = null;
+    
+    // Check Authorization header
+    if (isset($headers['Authorization'])) {
+        if (preg_match('/Bearer\s(\S+)/', $headers['Authorization'], $matches)) {
+            $token = $matches[1];
+        }
+    }
+    
+    // Check query parameter as fallback
+    if (!$token && isset($_GET['token'])) {
+        $token = $_GET['token'];
+    }
+    
+    if (!$token) {
+        return false;
+    }
+    
+    // Verify token (simplified for now - use a proper JWT library in production)
+    try {
+        // Load token from database for now (replace with JWT library in production)
+        require_once PROJECT_ROOT . '/api/config/database.php';
+        $db = new Database();
+        
+        $result = $db->selectOne("SELECT u.id, u.name, u.email, u.role FROM user_sessions s 
+                            JOIN users u ON s.user_id = u.id 
+                            WHERE s.token = :token AND s.expires_at > NOW()", 
+                            ['token' => $token]);
+        
+        if ($result) {
+            return $result;
+        }
+        
+        return false;
+    } catch (Exception $e) {
+        return false;
+    }
+}
+
+/**
+ * Ensure user has required role
+ * 
+ * @param string|array $roles Required role(s)
+ * @return array User data if authorized
+ */
+function requireRole($roles) {
+    $user = verifyToken();
+    
+    if (!$user) {
+        sendResponse(401, 'Unauthorized: Authentication required');
+    }
+    
+    // Convert single role to array
+    if (!is_array($roles)) {
+        $roles = [$roles];
+    }
+    
+    if (!in_array($user['role'], $roles)) {
+        sendResponse(403, 'Forbidden: Insufficient privileges');
+    }
+    
+    return $user;
+}
+
+/**
+ * Generate a secure random token
+ * 
+ * @param int $length Token length
+ * @return string Generated token
+ */
+function generateToken($length = 32) {
+    return bin2hex(random_bytes($length / 2));
+}
+
+/**
+ * Validate email address
+ * 
+ * @param string $email Email to validate
+ * @return bool True if valid
+ */
+function isValidEmail($email) {
+    return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+}
+
+/**
+ * Validate file upload
+ * 
+ * @param array $file File from $_FILES
+ * @param array $allowedTypes Allowed MIME types
+ * @param int $maxSize Max file size in bytes
+ * @return bool|string True if valid, error message otherwise
+ */
+function validateFileUpload($file, $allowedTypes = [], $maxSize = 5242880) {
+    // Check for errors
+    if ($file['error'] !== UPLOAD_ERR_OK) {
+        $errors = [
+            UPLOAD_ERR_INI_SIZE => 'File exceeds maximum size allowed by server',
+            UPLOAD_ERR_FORM_SIZE => 'File exceeds maximum size specified in form',
+            UPLOAD_ERR_PARTIAL => 'File was only partially uploaded',
+            UPLOAD_ERR_NO_FILE => 'No file was uploaded',
+            UPLOAD_ERR_NO_TMP_DIR => 'Missing temporary folder',
+            UPLOAD_ERR_CANT_WRITE => 'Failed to write file to disk',
+            UPLOAD_ERR_EXTENSION => 'A PHP extension stopped the file upload'
+        ];
+        
+        return $errors[$file['error']] ?? 'Unknown upload error';
+    }
+    
+    // Check file size
+    if ($file['size'] > $maxSize) {
+        return 'File size exceeds maximum allowed size';
+    }
+    
+    // Check file type if specified
+    if (!empty($allowedTypes)) {
+        $finfo = new finfo(FILEINFO_MIME_TYPE);
+        $mime = $finfo->file($file['tmp_name']);
+        
+        if (!in_array($mime, $allowedTypes)) {
+            return 'File type not allowed. Accepted types: ' . implode(', ', $allowedTypes);
+        }
+    }
+    
+    return true;
+}

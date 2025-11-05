@@ -1,0 +1,189 @@
+<?php
+/**
+ * Database Connection Class
+ * 
+ * Handles database connections for the VehicSmart API
+ */
+
+class Database {
+    private $host;
+    private $db_name;
+    private $username;
+    private $password;
+    private $conn;
+    private $charset;
+    
+    /**
+     * Database constructor
+     * 
+     * @param array $config Optional database configuration parameters
+     */
+    public function __construct($config = []) {
+        // Load config
+        global $db_config;
+        
+        // Use provided config or default from config.php
+        $this->host = $config['host'] ?? $db_config['host'];
+        $this->db_name = $config['dbname'] ?? $db_config['dbname'];
+        $this->username = $config['username'] ?? $db_config['username'];
+        $this->password = $config['password'] ?? $db_config['password'];
+        $this->charset = $config['charset'] ?? $db_config['charset'];
+        
+        // Connect to database
+        $this->connect();
+    }
+    
+    /**
+     * Connect to the database
+     * 
+     * @return PDO Database connection
+     */
+    private function connect() {
+        try {
+            $dsn = "mysql:host={$this->host};dbname={$this->db_name};charset={$this->charset}";
+            $options = [
+                PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                PDO::ATTR_EMULATE_PREPARES   => false,
+            ];
+            
+            $this->conn = new PDO($dsn, $this->username, $this->password, $options);
+            
+            return $this->conn;
+        } catch(PDOException $e) {
+            // Log error (don't show in production)
+            error_log("Database connection error: " . $e->getMessage());
+            throw new Exception("Database connection failed");
+        }
+    }
+    
+    /**
+     * Get database connection
+     * 
+     * @return PDO Database connection
+     */
+    public function getConnection() {
+        return $this->conn;
+    }
+    
+    /**
+     * Prepare a statement
+     * 
+     * @param string $sql SQL query
+     * @return PDOStatement Prepared statement
+     */
+    public function prepare($sql) {
+        return $this->conn->prepare($sql);
+    }
+    
+    /**
+     * Execute a query with parameters
+     * 
+     * @param string $sql SQL query
+     * @param array $params Query parameters
+     * @return PDOStatement Executed statement
+     */
+    public function query($sql, $params = []) {
+        $stmt = $this->prepare($sql);
+        $stmt->execute($params);
+        return $stmt;
+    }
+    
+    /**
+     * Select a single row from the database
+     * 
+     * @param string $sql SQL query
+     * @param array $params Query parameters
+     * @return array|false Result row or false if not found
+     */
+    public function selectOne($sql, $params = []) {
+        $stmt = $this->query($sql, $params);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+    
+    /**
+     * Select multiple rows from the database
+     * 
+     * @param string $sql SQL query
+     * @param array $params Query parameters
+     * @return array Result rows
+     */
+    public function select($sql, $params = []) {
+        $stmt = $this->query($sql, $params);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+    /**
+     * Insert a row and get last insert ID
+     * 
+     * @param string $table Table name
+     * @param array $data Column => value pairs
+     * @return int|string Last insert ID
+     */
+    public function insert($table, $data) {
+        $columns = implode(', ', array_keys($data));
+        $placeholders = ':' . implode(', :', array_keys($data));
+        
+        $sql = "INSERT INTO {$table} ({$columns}) VALUES ({$placeholders})";
+        $this->query($sql, $data);
+        
+        return $this->conn->lastInsertId();
+    }
+    
+    /**
+     * Update rows in a table
+     * 
+     * @param string $table Table name
+     * @param array $data Column => value pairs
+     * @param string $where WHERE clause
+     * @param array $whereParams WHERE clause parameters
+     * @return int Number of rows affected
+     */
+    public function update($table, $data, $where, $whereParams = []) {
+        $set = [];
+        foreach (array_keys($data) as $column) {
+            $set[] = "{$column} = :{$column}";
+        }
+        
+        $sql = "UPDATE {$table} SET " . implode(', ', $set) . " WHERE {$where}";
+        $params = array_merge($data, $whereParams);
+        
+        $stmt = $this->query($sql, $params);
+        return $stmt->rowCount();
+    }
+    
+    /**
+     * Delete rows from a table
+     * 
+     * @param string $table Table name
+     * @param string $where WHERE clause
+     * @param array $params WHERE clause parameters
+     * @return int Number of rows affected
+     */
+    public function delete($table, $where, $params = []) {
+        $sql = "DELETE FROM {$table} WHERE {$where}";
+        $stmt = $this->query($sql, $params);
+        return $stmt->rowCount();
+    }
+    
+    /**
+     * Begin a transaction
+     */
+    public function beginTransaction() {
+        $this->conn->beginTransaction();
+    }
+    
+    /**
+     * Commit a transaction
+     */
+    public function commit() {
+        $this->conn->commit();
+    }
+    
+    /**
+     * Roll back a transaction
+     */
+    public function rollback() {
+        $this->conn->rollBack();
+    }
+}

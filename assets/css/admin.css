@@ -1,0 +1,85 @@
+/* VehicSmart Admin CSS */
+
+/* General styles */
+html, body {
+    scroll-behavior: smooth;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Mobile sidebar toggle */
+.sidebar-open {
+    transform: translateX(0);
+}
+
+.sidebar-closed {
+    transform: translateX(-100%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        z-index: 40;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+/* Dashboard specific */
+.stats-card {
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Form styling */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 120, 73, 0.3);
+}
+
+.form-error {
+    color: #e53e3e;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #ff7849;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6633;
+}

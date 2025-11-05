@@ -1,0 +1,63 @@
+/* Custom animations for auth pages */
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pulse-error {
+    animation: pulseRed 0.3s ease-in-out;
+}
+
+@keyframes pulseRed {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+        background-color: rgba(254, 226, 226, 0.9);
+    }
+}
+
+/* Background gradient for auth pages */
+body {
+    background-color: #1c1c1e;
+    background-image: 
+        linear-gradient(135deg, rgba(28, 28, 30, 0.97) 0%, 
+        rgba(28, 28, 30, 0.8) 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Improved card styling */
+.auth-card {
+    box-shadow: 
+        0 10px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04),
+        0 0 0 1px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus {
+    box-shadow: 0 0 0 3px rgba(255, 120, 73, 0.3);
+}
+
+/* Button hover animation */
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
