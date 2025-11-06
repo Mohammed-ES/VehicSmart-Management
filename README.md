@@ -1,3904 +1,612 @@
-﻿<div align="center"><div align="center"><div align="center"><div align="center"><div align="center">
-
-
-
-<!-- Animated Wave Header -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=200&section=header&text=VehicSmart&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" alt="VehicSmart Header" />
-
-<!-- Animated Wave Header -->
-
-<!-- Animated Typing Effect -->
-
-<h3><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=200&section=header&text=VehicSmart&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Professional+Vehicle+Management;Rental+%26+Sales+Platform;Modern+Full-Stack+System" alt="Typing SVG" />
-
-</h3><!-- Animated Header with Gradient -->
-
-
-
-<p align="center"><!-- Animated Typing Effect -->
-
-  <em>A modern, full-featured vehicle rental and sales management platform</em>
-
-</p><h3><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=200&section=header&text=VehicSmart&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
-
-
-
-<!-- Technology Badges -->  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Professional+Vehicle+Management;Rental+%26+Sales+Platform;Modern+Full-Stack+System" alt="Typing SVG" />
-
-<p align="center">
-
-  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/></h3># 🚗 VehicSmart# 🚗 VehicSmart
-
-  <img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-
-  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-
-</p><p align="center"><h3>
-
-
-
-<!-- Navigation Links -->  <em>A modern, full-featured vehicle rental and sales management platform</em>
-
-<p align="center">
-
-  <a href="#-features">Features</a> •</p>  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Professional+Vehicle+Management;Rental+%26+Sales+Platform;Modern+Full-Stack+System" alt="Typing SVG" />
-
-  <a href="#-installation">Installation</a> •
-
-  <a href="#-usage">Usage</a> •
-
-  <a href="#-tech-stack">Tech Stack</a> •
-
-  <a href="#-screenshots">Screenshots</a><!-- Technology Badges --></h3>
-
-</p>
-
-<p align="center">
-
-<!-- GitHub Stats -->
-
-<p align="center">  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>### Professional Vehicle Management System### Professional Vehicle Management System
-
-  <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/>
-
-  <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/>  <img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-  <img src="https://img.shields.io/github/watchers/Mohammed-ES/VehicSmart-Management?style=social" alt="Watchers"/>
-
-</p>  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/><p align="center">
-
-
-
-</div>  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-
-
-
----</p>  <em>A modern, full-featured vehicle rental and sales management platform</em>
-
-
-
 <div align="center">
 
+<!-- Animated Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=200&section=header&text=VehicSmart&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" alt="VehicSmart Header" />
 
+<!-- Animated Typing Effect -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Professional+Vehicle+Management;Rental+%26+Sales+Platform;Modern+Full-Stack+System" alt="Typing SVG" />
 
-## 🌟 Features<!-- Navigation Links --></p>
+<p align="center">
+  <em>A modern, full-featured vehicle rental and sales management platform</em>
+</p>
 
-
-
-</div><p align="center">
-
-
-
-<table>  <a href="#-features">Features</a> •*A modern, full-featured vehicle rental and sales management platform**A modern, full-featured vehicle rental and sales management platform*
-
-<tr>
-
-<td width="50%" valign="top">  <a href="#-installation">Installation</a> •
-
-
-
-### 👤 Client Portal  <a href="#-usage">Usage</a> •<!-- Animated Badges -->
-
-
-
-- 🔐 **Secure Authentication** - Registration, Login, OTP Verification  <a href="#-tech-stack">Tech Stack</a> •
-
-- 🔍 **Smart Search** - Advanced filters by type, price, fuel, brand
-
-- 📸 **Dynamic Gallery** - BLOB storage with auto illustrations  <a href="#-demo">Demo</a><p align="center">
-
-- 📊 **Personal Dashboard** - Real-time statistics & history
-
-- 🚗 **Fleet Management** - Manage your personal vehicles</p>
-
-- 🛒 **Easy Booking** - Streamlined rent/buy process
-
+<!-- Technology Badges -->
+<p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
+</p>
 
-</td>
+<!-- Navigation Links -->
+<p align="center">
+  <a href="#-about">About</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-usage">Usage</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-screenshots">Screenshots</a>
+</p>
 
-<td width="50%" valign="top"><!-- GitHub Stats -->
-
-
-
-### 🔧 Admin Panel<p align="center">  <img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-
-
-
-- 📊 **Analytics Dashboard** - System-wide overview & metrics  <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/>
-
-- 🚙 **Vehicle CRUD** - Full management with image uploads
-
-- 👥 **User Management** - Client administration & roles  <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/>  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-
-- 🖼️ **Media Gallery** - BLOB system with REST API
-
-- 📥 **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)  <img src="https://img.shields.io/github/watchers/Mohammed-ES/VehicSmart-Management?style=social" alt="Watchers"/>
-
-- 🔐 **Security Center** - Role-based access control
-
-- 🗃️ **DB Tools** - Maintenance, migrations & diagnostics</p>  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-
-
-
-</td>
-
-</tr>
-
-</table></div></p>
-
-
+</div>
 
 ---
 
+## 📖 About
 
+**VehicSmart** is a comprehensive vehicle management platform designed to revolutionize how businesses handle vehicle rentals and sales. Built with modern web technologies, it provides a seamless experience for both administrators and clients.
 
-<div align="center">---[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+### What is VehicSmart?
 
+VehicSmart is a full-stack web application that streamlines vehicle fleet management, rental operations, and sales processes. It combines powerful administrative tools with an intuitive client interface, making vehicle management efficient and user-friendly.
 
+#### 🎯 Key Highlights
+
+- **🚀 Modern Architecture** - Built with PHP 8.2+, MySQL, and modern JavaScript
+- **🔒 Security First** - Implements industry-standard security practices including PDO prepared statements, SHA256 password hashing, and CSRF protection
+- **📱 Responsive Design** - Fully optimized for desktop, tablet, and mobile devices using TailwindCSS
+- **💾 Advanced BLOB System** - Innovative image storage directly in database with automatic SVG generation
+- **⚡ High Performance** - Optimized queries, HTTP caching, and lazy loading for fast page loads
+- **🛠️ Easy Deployment** - Simple installation process with comprehensive documentation
+
+#### 💼 Perfect For
+
+- 🚗 Car rental companies
+- 🚙 Vehicle dealerships
+- 🏢 Fleet management businesses
+- 👨‍💼 Individual vehicle owners
+- 🏪 Transportation service providers
+
+---
+
+## 🌟 Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 👤 Client Portal
+
+- 🔐 **Secure Authentication** - Registration, Login, OTP Verification
+- 🔍 **Smart Search** - Advanced filters by type, price, fuel, brand
+- 📸 **Dynamic Gallery** - BLOB storage with auto illustrations
+- 📊 **Personal Dashboard** - Real-time statistics & history
+- 🚗 **Fleet Management** - Manage your personal vehicles
+- 🛒 **Easy Booking** - Streamlined rent/buy process
+
+</td>
+<td width="50%" valign="top">
+
+### 🔧 Admin Panel
+
+- 📊 **Analytics Dashboard** - System-wide overview & metrics
+- 🚙 **Vehicle CRUD** - Full management with image uploads
+- 👥 **User Management** - Client administration & roles
+- 🖼️ **Media Gallery** - BLOB system with REST API
+- 📥 **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)
+- 🔐 **Security Center** - Role-based access control
+- 🗃️ **DB Tools** - Maintenance, migrations & diagnostics
+
+</td>
+</tr>
+</table>
+
+---
 
 ## 🎨 Advanced Image System
 
+<div align="center">
 
-
-<img src="https://img.shields.io/badge/BLOB-Storage-success?style=for-the-badge&logo=database&logoColor=white" alt="BLOB"/><div align="center"><p align="center">
-
+<img src="https://img.shields.io/badge/BLOB-Storage-success?style=for-the-badge&logo=database&logoColor=white" alt="BLOB"/>
 <img src="https://img.shields.io/badge/Auto-SVG-blue?style=for-the-badge&logo=svg&logoColor=white" alt="SVG"/>
-
 <img src="https://img.shields.io/badge/HTTP-Cache-orange?style=for-the-badge&logo=apache&logoColor=white" alt="Cache"/>
 
-
-
-</div>## 🌟 Features Overview  <a href="#-features">Features</a> •[![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)[![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-
+</div>
 
 | Feature | Description | Performance |
-
 |:-------:|-------------|:-----------:|
-
-| 💾 **BLOB Storage** | Images stored directly in MySQL/MariaDB | ⚡ Ultra Fast |</div>  <a href="#-installation">Installation</a> •
-
+| 💾 **BLOB Storage** | Images stored directly in MySQL/MariaDB | ⚡ Ultra Fast |
 | 🎨 **Auto SVG** | Generate custom vehicle illustrations | 📦 < 5 KB each |
-
 | 🚀 **HTTP Cache** | 24-hour browser caching | 🏎️ 80% faster |
-
 | 📱 **Responsive** | Optimized for all screen sizes | 📲 Mobile-first |
+| 🔄 **REST API** | `/api/vehicles/image.php?id=X` | ✅ Optimized |
 
-| 🔄 **REST API** | `/api/vehicles/image.php?id=X` | ✅ Optimized |<table>  <a href="#-usage">Usage</a> •
-
-
-
----<tr>
-
-
-
-<div align="center"><td width="50%" valign="top">  <a href="#-tech-stack">Tech Stack</a> •
-
-
+---
 
 ## 🚀 Tech Stack
 
-
-
-### Backend Technologies### 👤 Client Portal  <a href="#-demo">Demo</a>[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack)[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack)
-
-<p>
-
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>> *Empowering customers with seamless experience*
-
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-  <img src="https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge" alt="PDO"/></p>
-
-  <img src="https://img.shields.io/badge/REST-API-green?style=for-the-badge" alt="REST"/>
-
-</p>- 🔐 **Secure Authentication** - Registration, Login, OTP Verification
-
-
-
-### Frontend Technologies- 🔍 **Smart Search** - Advanced filters (type, price, fuel, brand)
-
-<p>
-
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>- 📸 **Dynamic Gallery** - BLOB storage with auto illustrations
-
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>- 📊 **Personal Dashboard** - Real-time statistics & history<!-- Animated GitHub Stats -->
-
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-
-</p>- 🚗 **Fleet Management** - Manage your personal vehicles
-
-
-
-### Development Tools- 🛒 **Easy Booking** - Streamlined rent/buy process<p align="center">------
-
-<p>
-
-  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/>
-
-  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/>
-
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></td>  <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/>
-
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-
-</p><td width="50%" valign="top">
-
-
-
-</div>  <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/>
-
-
-
----### 🔧 Admin Panel
-
-
-
-## 📁 Project Structure> *Complete control & management suite*  <img src="https://img.shields.io/github/watchers/Mohammed-ES/VehicSmart-Management?style=social" alt="Watchers"/>
-
-
-
-```bash
-
-VehicSmart/
-
-│- 📊 **Analytics Dashboard** - System-wide overview & metrics</p>![VehicSmart Banner](https://via.placeholder.com/1200x400/3B82F6/ffffff?text=VehicSmart+-+Vehicle+Management+System)![VehicSmart Banner](https://via.placeholder.com/1200x400/3B82F6/ffffff?text=VehicSmart+-+Vehicle+Management+System)
-
-├── 📂 admin/                           # Admin Interface
-
-│   ├── dashboard.php                  # Analytics Dashboard- 🚙 **Vehicle CRUD** - Full management with image uploads
-
-│   ├── vehicles_manage.php            # Vehicle Management
-
-│   ├── vehicle_images.php             # Image Manager- 👥 **User Management** - Client administration & roles
-
-│   ├── vehicle_gallery.php            # Media Gallery
-
-│   ├── import_vehicle_illustrations.php  # Auto Import- 🖼️ **Media Gallery** - BLOB system with REST API
-
-│   └── clients_manage.php             # User Management
-
-│- 📥 **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)</div>
-
-├── 📂 client/                          # Client Interface
-
-│   ├── client_dashboard.php           # Client Dashboard- 🔐 **Security Center** - Role-based access control
-
-│   ├── select_vehicle.php             # Vehicle Catalog
-
-│   ├── my_vehicles.php                # Personal Fleet- 🗃️ **DB Tools** - Maintenance, migrations & diagnostics
-
-│   └── rentals.php                    # Rental History
-
-│
-
-├── 📂 api/                             # REST API
-
-│   ├── auth/                          # Authentication</td>---</div></div>
-
-│   ├── vehicles/                      # Vehicle Endpoints
-
-│   │   └── image.php                 # Image API</tr>
-
-│   └── config/                        # API Config
-
-│</table>
-
-├── 📂 config/                          # Configuration
-
-│   ├── config.example.php             # Config Template
-
-│   ├── database.example.php           # DB Template
-
-│   ├── ImageManager.php               # BLOB Manager---<div align="center">
-
-│   └── security.php                   # Security
-
-│
-
-├── 📂 database/                        # Database
-
-│   ├── vehicsmart.sql                 # DB Structure<div align="center">
-
-│   └── migrations/                    # Migrations
-
-│
-
-└── 📂 assets/                          # Static Assets
-
-    ├── css/                           # Stylesheets## 🎨 Advanced Image System## 🌟 Features Overview------
-
-    ├── js/                            # JavaScript
-
-    └── images/                        # Images
-
-```
-
-<img src="https://img.shields.io/badge/BLOB-Storage-success?style=for-the-badge&logo=database&logoColor=white" />
+### Backend Technologies
+
+| Technology | Version | Description |
+|:----------:|:-------:|-------------|
+| <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/> | 8.2+ | Server-side scripting and business logic |
+| <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> | 8.0+ | Relational database management system |
+| <img src="https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge" alt="PDO"/> | Latest | Secure database abstraction layer |
+| <img src="https://img.shields.io/badge/REST-API-green?style=for-the-badge" alt="REST API"/> | - | RESTful API architecture for data exchange |
+
+### Frontend Technologies
+
+| Technology | Version | Description |
+|:----------:|:-------:|-------------|
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/> | 5 | Semantic markup and structure |
+| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> | 3 | Styling and responsive design |
+| <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/> | ES6+ | Interactive user interface and dynamic content |
+| <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/> | 2.2+ | Utility-first CSS framework for rapid UI development |
+
+### Development Tools
+
+| Technology | Version | Description |
+|:----------:|:-------:|-------------|
+| <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/> | Latest | Local development environment |
+| <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/> | 2.4+ | Web server for hosting application |
+| <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> | Latest | Version control and collaboration |
+| <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/> | Latest | Code editor with extensions support |
 
 ---
 
-<img src="https://img.shields.io/badge/Auto-SVG-blue?style=for-the-badge&logo=svg&logoColor=white" />
+## 📁 Project Structure
 
-<div align="center">
+```bash
+VehicSmart/
+│
+├── 📂 admin/                           # Admin Interface
+│   ├── dashboard.php                  # Analytics Dashboard
+│   ├── vehicles_manage.php            # Vehicle Management
+│   ├── vehicle_images.php             # Image Manager
+│   ├── vehicle_gallery.php            # Media Gallery
+│   ├── import_vehicle_illustrations.php  # Auto Import
+│   └── clients_manage.php             # User Management
+│
+├── 📂 client/                          # Client Interface
+│   ├── client_dashboard.php           # Client Dashboard
+│   ├── select_vehicle.php             # Vehicle Catalog
+│   ├── my_vehicles.php                # Personal Fleet
+│   └── rentals.php                    # Rental History
+│
+├── 📂 api/                             # REST API
+│   ├── auth/                          # Authentication
+│   ├── vehicles/                      # Vehicle Endpoints
+│   │   └── image.php                 # Image API
+│   └── config/                        # API Config
+│
+├── 📂 config/                          # Configuration
+│   ├── config.example.php             # Config Template
+│   ├── database.example.php           # DB Template
+│   ├── ImageManager.php               # BLOB Manager
+│   └── security.php                   # Security
+│
+├── 📂 database/                        # Database
+│   ├── vehicsmart.sql                 # DB Structure
+│   └── migrations/                    # Migrations
+│
+└── 📂 assets/                          # Static Assets
+    ├── css/                           # Stylesheets
+    ├── js/                            # JavaScript
+    └── images/                        # Images
+```
 
-<img src="https://img.shields.io/badge/HTTP-Cache-orange?style=for-the-badge&logo=apache&logoColor=white" /></div>
+---
 
 ## 📦 Installation
 
-
-
-</div>
-
-</div>
-
 ### Prerequisites
 
-
-
-<div align="center">
-
-| Feature | Description | Performance |<table>## 🌟 Features## 🌟 Features
-
 | Requirement | Version | Download |
-
-|:-----------:|:-------:|:--------:||:-------:|-------------|:-----------:|
-
+|:-----------:|:-------:|:--------:|
 | 🔵 PHP | 8.2+ | [Download](https://www.php.net/downloads) |
-
-| 🟠 MySQL | 8.0+ | [Download](https://www.mysql.com/downloads/) || 💾 **BLOB Storage** | Images stored directly in MySQL/MariaDB | ⚡ Ultra Fast |<tr>
-
+| 🟠 MySQL | 8.0+ | [Download](https://www.mysql.com/downloads/) |
 | 🟢 Git | Latest | [Download](https://git-scm.com/) |
-
-| 🎨 **Auto SVG** | Generate custom vehicle illustrations | 📦 < 5 KB each |
-
-</div>
-
-| 🚀 **HTTP Cache** | 24-hour browser caching | 🏎️ 80% faster |<td width="50%" valign="top">
 
 ### Quick Start
 
-| 📱 **Responsive** | Optimized for all screen sizes | 📲 Mobile-first |
-
 #### Step 1: Clone Repository
 
-| 🔄 **REST API** | `/api/vehicles/image.php?id=X` | ✅ Optimized |
-
 ```bash
-
 git clone https://github.com/Mohammed-ES/VehicSmart-Management.git
-
 cd VehicSmart-Management
-
-```---### 👤 Client Portal<table><table>
-
-
+```
 
 #### Step 2: Database Setup
 
-
-
-```bash<div align="center">> *Empowering customers with seamless experience*
-
+```bash
 mysql -u root -p
-
 ```
-
-
-
-```sql## 🚀 Tech Stack<tr><tr>
-
-CREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-exit;
-
-```
-
-### Backend Technologies- 🔐 **Secure Authentication** - Registration, Login, OTP Verification
-
-```bash
-
-mysql -u root -p vehicsmart < database/vehicsmart.sql<p>
-
-```
-
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>- 🔍 **Smart Search** - Advanced filters (type, price, fuel, brand)<td width="50%"><td width="50%">
-
-#### Step 3: Configuration
-
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-```bash
-
-cp config/config.example.php config/config.php  <img src="https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge" alt="PDO"/>- 📸 **Dynamic Gallery** - BLOB storage with auto illustrations
-
-cp config/database.example.php config/database.php
-
-```  <img src="https://img.shields.io/badge/REST-API-green?style=for-the-badge" alt="REST"/>
-
-
-
-Edit `config/config.php`:</p>- 📊 **Personal Dashboard** - Real-time statistics & history
-
-```php
-
-define('DB_HOST', 'localhost');
-
-define('DB_PORT', '3306');
-
-define('DB_NAME', 'vehicsmart');### Frontend Technologies- 🚗 **Fleet Management** - Manage your personal vehicles
-
-define('DB_USER', 'root');
-
-define('DB_PASS', '');<p>
-
-```
-
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>- 🛒 **Easy Booking** - Streamlined rent/buy process### 👤 Client Portal### ðŸ‘¤ Client Portal
-
-#### Step 4: Image Migration
-
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-
-Open: `http://localhost/VehicSmart-Management/admin/migrate_images_blob.php`
-
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-
-✅ Check box and click **Execute Migration**
-
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-
-#### Step 5: Create Admin
-
-</p></td>- ✨ **Secure Authentication** - Registration, Login, Password Reset with OTP- âœ¨ **Secure Authentication** - Registration, Login, Password Reset with OTP
 
 ```sql
-
-INSERT INTO users (username, email, password, role, is_verified)
-
-VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);
-
-```### Development Tools<td width="50%" valign="top">
-
-
-
-#### Step 6: Import Illustrations (Optional)<p>
-
-
-
-Open: `http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php`  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/>- 🔍 **Advanced Search** - Filter by type, price, fuel, brand- ðŸ” **Advanced Search** - Filter by type, price, fuel, brand
-
-
-
-✅ Select **Custom SVG Illustrations**  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/>
-
-
-
-#### Step 7: Access  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>### 🔧 Admin Panel
-
-
-
-<div align="center">  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-
-
-
-| Portal | URL |</p>> *Complete control & management suite*- 📸 **Dynamic Images** - BLOB storage with automatic illustrations- ðŸ“¸ **Dynamic Images** - BLOB storage with automatic illustrations
-
-|:------:|-----|
-
-| 🏠 Homepage | `http://localhost/VehicSmart-Management/` |
-
-| 👤 Client | `http://localhost/VehicSmart-Management/client/` |
-
-| 🔧 Admin | `http://localhost/VehicSmart-Management/admin/` |</div>
-
-
-
-</div>
-
-
-
-------- 📊 **Analytics Dashboard** - System-wide overview & metrics- 📊 **Dashboard** - Statistics and rental history- ðŸ“Š **Dashboard** - Statistics and rental history
-
-
-
-<div align="center">
-
-
-
-## 🔐 Default Accounts## 📁 Project Structure- 🚙 **Vehicle CRUD** - Full management with image uploads
-
-
-
-</div>
-
-
-
-| Role | Email | Password |```bash- 👥 **User Management** - Client administration & roles- 🚗 **My Vehicles** - Personal fleet management- ðŸš— **My Vehicles** - Personal fleet management
-
-|:----:|-------|----------|
-
-| 👨‍💼 Admin | admin@vehicsmart.com | `Admin123!` |VehicSmart/
-
-| 👤 Client | client@example.com | `Client123!` |
-
-│- 🖼️ **Media Gallery** - BLOB system with REST API
-
-⚠️ **Change passwords after installation!**
-
-├── 📂 admin/                           # 🔧 Admin Interface
-
----
-
-│   ├── dashboard.php                  # Analytics & Overview- 📥 **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)- 🛒 **Rent/Buy** - Complete booking system- ðŸ›’ **Rent/Buy** - Complete booking system
-
-<div align="center">
-
-│   ├── vehicles_manage.php            # Vehicle CRUD
-
-## 🎯 Usage
-
-│   ├── vehicle_images.php             # Image Manager- 🔐 **Security Center** - Role-based access control
-
-</div>
-
-│   ├── vehicle_gallery.php            # Media Gallery
-
-### For Administrators
-
-│   ├── import_vehicle_illustrations.php  # Auto Import System- 🗃️ **DB Tools** - Maintenance, migrations & diagnostics
-
-<table>
-
-<tr>│   ├── clients_manage.php             # User Management
-
-<td width="50%">
-
-│   └── settings.php                   # System Configuration
-
-**1. Login**
-
-```│
-
-admin/dashboard.php
-
-```├── 📂 client/                          # 👤 Client Interface</td></td></td>
-
-
-
-</td>│   ├── client_dashboard.php           # Client Dashboard
-
-<td width="50%">
-
-│   ├── select_vehicle.php             # Vehicle Catalog</tr>
-
-**2. Add Vehicle**
-
-```│   ├── my_vehicles.php                # Personal Fleet
-
-admin/vehicle_form.php
-
-```│   ├── rentals.php                    # Rental History</table><td width="50%"><td width="50%">
-
-
-
-</td>│   └── settings.php                   # User Settings
-
-</tr>
-
-<tr>│
-
-<td>
-
-├── 📂 api/                             # 🔌 REST API
-
-**3. Manage Images**
-
-```│   ├── auth/                          # Authentication Endpoints---
-
-admin/vehicle_images.php?vehicle_id=X
-
-```│   │   ├── login.php
-
-
-
-</td>│   │   ├── register.php
-
-<td>
-
-│   │   └── logout.php
-
-**4. View Gallery**
-
-```│   ├── vehicles/                      # Vehicle Endpoints<div align="center">### 🔧 Admin Panel### ðŸ”§ Admin Panel
-
-admin/vehicle_gallery.php
-
-```│   │   ├── image.php                 # Image Serving API
-
-
-
-</td>│   │   └── list.php
-
-</tr>
-
-</table>│   └── config/                        # API Configuration
-
-
-
-### For Clients│## 🎨 Advanced Image System- 📊 **Dashboard** - Complete system overview- ðŸ“Š **Dashboard** - Complete system overview
-
-
-
-<table>├── 📂 config/                          # ⚙️ Configuration
-
-<tr>
-
-<td width="50%">│   ├── config.example.php             # Config Template
-
-
-
-**Registration**│   ├── database.example.php           # DB Template
-
-1. Go to `auth/register.php`
-
-2. Fill form│   ├── ImageManager.php               # BLOB Manager Class<img src="https://img.shields.io/badge/BLOB-Storage-success?style=for-the-badge&logo=database&logoColor=white" />- 🚙 **Vehicle Management** - Full CRUD with image upload- ðŸš™ **Vehicle Management** - Full CRUD with image upload
-
-3. Verify OTP
-
-4. Login│   └── security.php                   # Security Functions
-
-
-
-</td>│<img src="https://img.shields.io/badge/Auto-SVG-blue?style=for-the-badge&logo=svg&logoColor=white" />
-
-<td width="50%">
-
-├── 📂 database/                        # 🗄️ Database
-
-**Rent Vehicle**
-
-1. Browse `client/select_vehicle.php`│   ├── vehicsmart.sql                 # Full DB Structure<img src="https://img.shields.io/badge/HTTP-Cache-orange?style=for-the-badge&logo=apache&logoColor=white" />- 👥 **Client Management** - User administration- ðŸ‘¥ **Client Management** - User administration
-
-2. Use filters
-
-3. Select vehicle│   └── migrations/                    # SQL Migrations
-
-4. Complete booking
-
-│
-
-</td>
-
-</tr>├── 📂 assets/                          # 🎨 Static Assets
-
-</table>
-
-│   ├── css/                           # Stylesheets</div>- 🖼️ **Image Gallery** - BLOB system with API- ðŸ–¼ï¸ **Image Gallery** - BLOB system with API
-
----
-
-│   ├── js/                            # JavaScript
-
-<div align="center">
-
-│   └── images/                        # Static Images
-
-## 🎨 BLOB System
-
-│
-
-</div>
-
-└── 📂 auth/                            # 🔐 Authentication Pages| Feature | Description | Performance |- 📥 **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)- ðŸ“¥ **Auto Import** - 3 methods (SVG, Placeholder, Unsplash)
-
-### Why BLOB Storage?
-
-    ├── login.php
-
-<table>
-
-<tr>    ├── register.php|:-------:|-------------|:-----------:|
-
-<td width="25%" align="center">
-
-    └── verify_code.php
-
-**💾 Database**
-
-All in one place```| 💾 **BLOB Storage** | Images stored directly in MySQL/MariaDB | ⚡ Ultra Fast |- 🔐 **Security** - Role-based access control- ðŸ” **Security** - Role-based access control
-
-
-
-</td>
-
-<td width="25%" align="center">
-
----| 🎨 **Auto SVG** | Generate custom vehicle illustrations | 📦 < 5 KB each |
-
-**🔒 Security**
-
-Centralized control
-
-
-
-</td><div align="center">| 🚀 **HTTP Cache** | 24-hour browser caching | 🏎️ 80% faster |- 🗃️ **DB Maintenance** - Migration and diagnostic tools- ðŸ—ƒï¸ **DB Maintenance** - Migration and diagnostic tools
-
-<td width="25%" align="center">
-
-
-
-**📦 Backup**
-
-One database dump## 📦 Installation Guide| 📱 **Responsive** | Optimized for all screen sizes | 📲 Mobile-first |
-
-
-
-</td>
-
-<td width="25%" align="center">
-
-</div>| 🔄 **REST API** | `/api/vehicles/image.php?id=X` | ✅ Optimized |
-
-**🚀 Deployment**
-
-No file issues
-
-
-
-</td>### 📋 Prerequisites
-
-</tr>
-
-</table>
-
-
-
-### API Endpoint<div align="center">---</td></td>
-
-
-
-```http
-
-GET /api/vehicles/image.php?id={image_id}
-
-| Requirement | Minimum Version | Recommended | Download Link |
-
-Headers:
-
-  Content-Type: image/jpeg | image/png | image/svg+xml|:-----------:|:---------------:|:-----------:|:-------------:|
-
-  Cache-Control: public, max-age=86400
-
-| 🔵 **PHP** | 8.0 | 8.2+ | [Download](https://www.php.net/downloads) |<div align="center"></tr></tr>
-
-Response: Binary image data
-
-```| 🟠 **MySQL** | 8.0 | 8.0+ | [Download](https://www.mysql.com/downloads/) |
-
-
-
-### ImageManager Usage| 🟡 **Apache** | 2.4 | Latest | Included with XAMPP |
-
-
-
-```php| 🟢 **Git** | 2.0+ | Latest | [Download](https://git-scm.com/) |
-
-$imageManager = new ImageManager($db);
-
-## 🚀 Tech Stack</table></table>
-
-// Save image
-
-$imageManager->saveVehicleImage($vehicleId, $fileData, $isPrimary);</div>
-
-
-
-// Get display image
-
-$image = $imageManager->getVehicleDisplayImage($vehicleId);
-
----
-
-// Get image URL
-
-$url = $imageManager->getImageUrl($imageId);### Backend Technologies
-
-```
-
-### 🚀 Quick Start (5 Minutes)
-
----
-
-<p>
-
-<div align="center">
-
-#### **Step 1:** Clone Repository
-
-## 🔧 Configuration
-
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>------
-
-</div>
-
-```bash
-
-### Change MySQL Port
-
-# Clone the project  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-```php
-
-// config/config.phpgit clone https://github.com/Mohammed-ES/VehicSmart-Management.git
-
-define('DB_PORT', '3307');
-
-```  <img src="https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge" alt="PDO"/>
-
-
-
-### Increase Upload Limit# Navigate to directory
-
-
-
-```phpcd VehicSmart-Management  <img src="https://img.shields.io/badge/REST-API-green?style=for-the-badge" alt="REST"/>
-
-// config/config.php
-
-define('MAX_UPLOAD_SIZE', 10485760);  // 10 MB```
-
-```
-
-</p>## 🎨 Advanced Image System## ðŸŽ¨ Advanced Image System
-
-### Production Mode
-
-#### **Step 2:** Database Setup
-
-```php
-
-// config/config.php
-
-define('APP_ENV', 'production');
-
-define('DEBUG_MODE', false);```bash
-
-```
-
-# Login to MySQL### Frontend Technologies
-
----
-
-mysql -u root -p
-
-<div align="center">
-
-```<p>
-
-## 🐛 Troubleshooting
-
-
-
-</div>
-
-```sql  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/><div align="center"><div align="center">
-
-<details>
-
-<summary><b>❌ Database Connection Failed</b></summary>-- Create database
-
-
-
-**Solutions:**CREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-
-1. Check credentials in `config/config.php`
-
-2. Verify MySQL is runningexit;
-
-3. Test connection: `mysql -u root -p`
-
-4. Check port (3306 or 3307)```  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-
-
-
-</details>
-
-
-
-<details>```bash  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-
-<summary><b>🖼️ Images Not Displaying</b></summary>
-
-# Import database structure
-
-**Solutions:**
-
-1. Run migration: `admin/migrate_images_blob.php`mysql -u root -p vehicsmart < database/vehicsmart.sql</p>| Feature | Description | Performance || Feature | Description | Performance |
-
-2. Check table: `SHOW TABLES LIKE 'vehicle_images_blob';`
-
-3. Import illustrations```
-
-4. Clear browser cache
-
-
-
-</details>
-
-#### **Step 3:** Configuration
-
-<details>
-
-<summary><b>🔌 Wrong Port Error</b></summary>### Development Tools|---------|-------------|-------------||---------|-------------|-------------|
-
-
-
-**Solution:**```bash
-
-```php
-
-define('DB_PORT', '3307');  // Try 3307 if 3306 fails# Copy configuration templates<p>
-
-```
-
-cp config/config.example.php config/config.php
-
-</details>
-
-cp config/database.example.php config/database.php  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/>| 💾 **BLOB Storage** | Images stored in MySQL/MariaDB | Ultra Fast || ðŸ’¾ **BLOB Storage** | Images stored in MySQL/MariaDB | Ultra Fast |
-
----
-
-```
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/>
-
-## 📊 Database Schema
-
-**Edit `config/config.php`:**
-
-</div>
-
-```php  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>| 🎨 **Auto SVG** | Generate custom illustrations | < 5 KB each || ðŸŽ¨ **Auto SVG** | Generate custom illustrations | < 5 KB each |
-
-| Table | Description |
-
-|:-----:|-------------|define('DB_HOST', 'localhost');
-
-| `users` | User accounts (admin/clients) |
-
-| `vehicles` | Vehicle inventory |define('DB_PORT', '3306');        // Use 3307 for some XAMPP installations  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-
-| `vehicle_categories` | Vehicle types |
-
-| `vehicle_images_blob` | BLOB image storage |define('DB_NAME', 'vehicsmart');
-
-| `rentals` | Rental history |
-
-| `maintenance_records` | Maintenance logs |define('DB_USER', 'root');</p>| 🚀 **HTTP Cache** | 24-hour caching | 80% faster || ðŸš€ **HTTP Cache** | 24-hour caching | 80% faster |
-
-
-
-### Schema Diagramdefine('DB_PASS', '');            // Your MySQL password
-
-
-
-``````
-
-┌─────────────┐         ┌──────────────────┐         ┌─────────────────────┐
-
-│    users    │────────▶│     rentals      │◀────────│      vehicles       │
-
-└─────────────┘         └──────────────────┘         └─────────────────────┘
-
-                                                               │#### **Step 4:** Image System Migration</div>| 📱 **Responsive** | All screen sizes | Mobile-first || ðŸ“± **Responsive** | All screen sizes | Mobile-first |
-
-                                                               ▼
-
-                                                      ┌─────────────────────┐
-
-                                                      │ vehicle_images_blob │
-
-                                                      └─────────────────────┘Open in your browser:
-
-```
-
-```
-
----
-
-http://localhost/VehicSmart-Management/admin/migrate_images_blob.php---| 🔄 **REST API** | `/api/vehicles/image.php?id=X` | Optimized || ðŸ”„ **REST API** | `/api/vehicles/image.php?id=X` | Optimized |
-
-<div align="center">
-
-```
-
-## 🔒 Security
-
-
-
-</div>
-
-✅ Check the confirmation box  
-
-<table>
-
-<tr>✅ Click **"Execute Migration"**## 📁 Project Structure
-
-<td width="50%">
-
-
-
-### Protection
-
-#### **Step 5:** Create Admin Account
-
-- 🔐 SQL Injection → PDO Prepared Statements
-
-- 🔒 Passwords → SHA256 Hashing
-
-- 🎫 Sessions → Secure HTTPOnly
-
-- ✅ Input → Server-side validation```sql```bash</div></div>
-
-- 🚫 XSS → Output escaping
-
-INSERT INTO users (username, email, password, role, is_verified)
-
-</td>
-
-<td width="50%">VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);VehicSmart/
-
-
-
-### Access Control```
-
-
-
-- 🔐 Role-Based Access│
-
-- 🔑 Email Verification
-
-- 🚪 Page Restrictions#### **Step 6:** Import Vehicle Illustrations *(Optional)*
-
-- 📝 Audit Logs
-
-- 🔑 OTP System├── 📂 admin/                           # 🔧 Admin Interface
-
-
-
-</td>Open in browser:
-
-</tr>
-
-</table>```│   ├── dashboard.php                  # Analytics & Overview------
-
-
-
----http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php
-
-
-
-<div align="center">```│   ├── vehicles_manage.php            # Vehicle CRUD
-
-
-
-## ⚡ Performance
-
-
-
-</div>✅ Select **"Custom SVG Illustrations"** (Recommended)  │   ├── vehicle_images.php             # Image Manager
-
-
-
-| Page | Load Time | Status |✅ Click **"Import Illustrations"**  
-
-|:----:|:---------:|:------:|
-
-| 🏠 Homepage | 0.8s | ✅ Excellent |⏱️ Wait for completion (~30 seconds)│   ├── vehicle_gallery.php            # Media Gallery
-
-| 📊 Dashboard | 1.2s | ✅ Good |
-
-| 🖼️ Gallery | 1.5s | ✅ Good |
-
-| 🔍 Search | 0.9s | ✅ Excellent |
-
-#### **Step 7:** Access Application│   ├── import_vehicle_illustrations.php  # Auto Import System## 🚀 Tech Stack## ðŸš€ Tech Stack
-
-### Optimizations
-
-
-
-```
-
-✅ HTTP Caching (24h)<div align="center">│   ├── clients_manage.php             # User Management
-
-✅ Query Optimization
-
-✅ Lazy Loading
-
-✅ SVG Compression
-
-✅ Gzip Compression| Portal | URL | Credentials |│   └── settings.php                   # System Configuration
-
-```
-
-|:------:|-----|:-----------:|
-
----
-
-| 🏠 **Homepage** | `http://localhost/VehicSmart-Management/` | Public Access |│
-
-<div align="center">
-
-| 👤 **Client** | `http://localhost/VehicSmart-Management/client/` | Register New |
-
-## 🤝 Contributing
-
-| 🔧 **Admin** | `http://localhost/VehicSmart-Management/admin/` | admin@vehicsmart.com |├── 📂 client/                          # 👤 Client Interface<div align="center"><div align="center">
-
-</div>
-
-
-
-1. Fork the repository
-
-2. Create feature branch: `git checkout -b feature/Amazing`</div>│   ├── client_dashboard.php           # Client Dashboard
-
-3. Commit changes: `git commit -m '✨ Add Amazing'`
-
-4. Push: `git push origin feature/Amazing`
-
-5. Open Pull Request
-
----│   ├── select_vehicle.php             # Vehicle Catalog
-
----
-
-
-
-<div align="center">
-
-<div align="center">│   ├── my_vehicles.php                # Personal Fleet
-
-## 📸 Screenshots
-
-
-
-</div>
-
-## 🔐 Default Accounts│   ├── rentals.php                    # Rental History### Backend### Backend
-
-### Admin Dashboard
-
-<img src="https://via.placeholder.com/1000x600/4F46E5/ffffff?text=Admin+Dashboard" alt="Admin Dashboard" />
-
-
-
-### Client Portal</div>│   └── settings.php                   # User Settings
-
-<img src="https://via.placeholder.com/1000x600/10B981/ffffff?text=Client+Portal" alt="Client Portal" />
-
-
-
-### Vehicle Catalog
-
-<img src="https://via.placeholder.com/1000x600/F59E0B/ffffff?text=Vehicle+Catalog" alt="Vehicle Catalog" />| Role | Email | Password | Access Level |│![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-
-
----|:----:|-------|----------|:------------:|
-
-
-
-<div align="center">| 👨‍💼 **Admin** | admin@vehicsmart.com | `Admin123!` | 🔓 Full Access |├── 📂 api/                             # 🔌 REST API
-
-
-
-## 📄 License| 👤 **Client** | client@example.com | `Client123!` | 📊 Client Portal |
-
-
-
-**MIT License** - See [LICENSE](LICENSE) for details│   ├── auth/                          # Authentication Endpoints![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-
-
----> ⚠️ **Security Notice:** Change these passwords immediately after installation!
-
-
-
-## 🌟 Show Your Support│   │   ├── login.php
-
-
-
-**Give a ⭐️ if this project helped you!**---
-
-
-
-<p>│   │   ├── register.php![PDO](https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge)![PDO](https://img.shields.io/badge/PDO-Database-orange?style=for-the-badge)
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/stargazers">
-
-    <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/><div align="center">
-
-  </a>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/network/members">│   │   └── logout.php
-
-    <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/>
-
-  </a>## 🎯 Usage Guide
-
-</p>
-
-│   ├── vehicles/                      # Vehicle Endpoints
-
----
-
-</div>
-
-### 💙 Made with Love by [Mohammed ES](https://github.com/Mohammed-ES)
-
-│   │   ├── image.php                 # Image Serving API
-
-<p>
-
-  <a href="https://github.com/Mohammed-ES">### For Administrators
-
-    <img src="https://img.shields.io/badge/GitHub-Mohammed--ES-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-
-  </a>│   │   └── list.php### Frontend### Frontend
-
-</p>
-
-<table>
-
----
-
-<tr>│   └── config/                        # API Configuration
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=100&section=footer" alt="Footer Wave" />
-
-<td width="50%">
-
-</div>
-
-│![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-**🔐 1. Login to Admin Panel**
-
-```├── 📂 config/                          # ⚙️ Configuration
-
-admin/dashboard.php
-
-```│   ├── config.example.php             # Config Template![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-Use credentials: `admin@vehicsmart.com`
-
-│   ├── database.example.php           # DB Template
-
-</td>
-
-<td width="50%">│   ├── ImageManager.php               # BLOB Manager Class![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-
-
-**🚙 2. Add New Vehicle**│   └── security.php                   # Security Functions
-
-```
-
-admin/vehicle_form.php│![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-```
-
-Fill form & upload images├── 📂 database/                        # 🗄️ Database
-
-
-
-</td>│   ├── vehicsmart.sql                 # Full DB Structure
-
-</tr>
-
-<tr>│   └── migrations/                    # SQL Migrations
-
-<td>
-
-│### Tools & Server### Tools & Server
-
-**🖼️ 3. Manage Vehicle Images**
-
-```├── 📂 assets/                          # 🎨 Static Assets
-
-admin/vehicle_images.php?vehicle_id=X
-
-```│   ├── css/                           # Stylesheets![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
-
-Upload, set primary, delete images
-
-│   ├── js/                            # JavaScript
-
-</td>
-
-<td>│   └── images/                        # Static Images![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-
-
-
-**📊 4. View Image Gallery**│
-
-```
-
-admin/vehicle_gallery.php└── 📂 auth/                            # 🔐 Authentication Pages![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-```
-
-Browse all vehicle images    ├── login.php
-
-
-
-</td>    ├── register.php
-
-</tr>
-
-</table>    └── verify_code.php
-
-
-
----```</div></div>
-
-
-
-### For Clients
-
-
-
-<table>---
-
-<tr>
-
-<td width="50%">
-
-
-
-**📝 Registration Process**<div align="center">------
-
-
-
-1. Navigate to `auth/register.php`
-
-2. Fill registration form
-
-3. Receive OTP via email## 📦 Installation Guide
-
-4. Verify code at `auth/verify_code.php`
-
-5. Login with credentials
-
-
-
-</td></div>## 📁 Project Structure## ðŸ“ Project Structure
-
-<td width="50%">
-
-
-
-**🚗 Renting a Vehicle**
-
-### 📋 Prerequisites
-
-1. Browse catalog at `client/select_vehicle.php`
-
-2. Use filters to find your perfect vehicle
-
-3. Click vehicle card to view details
-
-4. Click **"Rent or Buy"** button<div align="center">``````
-
-5. Complete booking form
-
-
-
-</td>
-
-</tr>| Requirement | Minimum Version | Recommended | Download Link |VehicSmart/VehicSmart/
-
-</table>
-
-|:-----------:|:---------------:|:-----------:|:-------------:|
-
----
-
-| 🔵 **PHP** | 8.0 | 8.2+ | [Download](https://www.php.net/downloads) |├── 📂 admin/                    # Admin Interfaceâ”œâ”€â”€ ðŸ“‚ admin/                    # Admin Interface
-
-<div align="center">
-
-| 🟠 **MySQL** | 8.0 | 8.0+ | [Download](https://www.mysql.com/downloads/) |
-
-## 🎨 BLOB Image System Architecture
-
-| 🟡 **Apache** | 2.4 | Latest | Included with XAMPP |│   ├── dashboard.php            # Admin Dashboardâ”‚   â”œâ”€â”€ dashboard.php            # Admin Dashboard
-
-</div>
-
-| 🟢 **Git** | 2.0+ | Latest | [Download](https://git-scm.com/) |
-
-### Why BLOB Storage? 
-
-│   ├── vehicles_manage.php      # Vehicle Managementâ”‚   â”œâ”€â”€ vehicles_manage.php      # Vehicle Management
-
-<table>
-
-<tr></div>
-
-<td width="25%" align="center">
-
-│   ├── vehicle_images.php       # Image Managerâ”‚   â”œâ”€â”€ vehicle_images.php       # Image Manager
-
-**💾 Database Storage**
-
----
-
-All images in one place
-
-│   └── import_vehicle_illustrations.php  # Auto Image Importâ”‚   â””â”€â”€ import_vehicle_illustrations.php  # Auto Image Import
-
-</td>
-
-<td width="25%" align="center">### 🚀 Quick Start (5 Minutes)
-
-
-
-**🔒 Enhanced Security**│â”‚
-
-
-
-Centralized access control#### **Step 1:** Clone Repository
-
-
-
-</td>├── 📂 client/                   # Client Interfaceâ”œâ”€â”€ ðŸ“‚ client/                   # Client Interface
-
-<td width="25%" align="center">
-
-```bash
-
-**📦 Simple Backup**
-
-# Clone the project│   ├── client_dashboard.php    # Client Dashboardâ”‚   â”œâ”€â”€ client_dashboard.php    # Client Dashboard
-
-One database dump = everything
-
-git clone https://github.com/Mohammed-ES/VehicSmart-Management.git
-
-</td>
-
-<td width="25%" align="center">│   ├── select_vehicle.php      # Vehicle Catalogâ”‚   â”œâ”€â”€ select_vehicle.php      # Vehicle Catalog
-
-
-
-**🚀 Easy Deployment**# Navigate to directory
-
-
-
-No file permission issuescd VehicSmart-Management│   └── my_vehicles.php         # Personal Fleetâ”‚   â””â”€â”€ my_vehicles.php         # Personal Fleet
-
-
-
-</td>```
-
-</tr>
-
-</table>│â”‚
-
-
-
-### 🔌 REST API Endpoint#### **Step 2:** Database Setup
-
-
-
-```http├── 📂 api/                      # REST APIâ”œâ”€â”€ ðŸ“‚ api/                      # REST API
-
-GET /api/vehicles/image.php?id={image_id}
-
-```bash
-
-Response Headers:
-
-  Content-Type: image/jpeg | image/png | image/svg+xml# Login to MySQL│   ├── auth/                   # Authenticationâ”‚   â”œâ”€â”€ auth/                   # Authentication
-
-  Cache-Control: public, max-age=86400
-
-  Content-Length: {size}mysql -u root -p
-
-
-
-Response Body:```│   └── vehicles/               # Vehicle Operationsâ”‚   â””â”€â”€ vehicles/               # Vehicle Operations
-
-  Binary image data
-
-```
-
-
-
-### 💻 ImageManager Class Usage```sql│       └── image.php          # Image Endpointâ”‚       â””â”€â”€ image.php          # Image Endpoint
-
-
-
-```php-- Create database
-
-<?php
-
-// Initialize ImageManagerCREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;│â”‚
-
-$imageManager = new ImageManager($db);
-
-exit;
-
-// Save a new vehicle image
-
-$imageId = $imageManager->saveVehicleImage(```├── 📂 config/                   # Configurationâ”œâ”€â”€ ðŸ“‚ config/                   # Configuration
-
-    $vehicleId,      // Vehicle ID
-
-    $fileData,       // Binary file data
-
-    $isPrimary       // Is this the primary image?
-
-);```bash│   ├── config.example.php      # Config Templateâ”‚   â”œâ”€â”€ config.example.php      # Config Template
-
-
-
-// Get vehicle's display image# Import database structure
-
-$image = $imageManager->getVehicleDisplayImage($vehicleId);
-
-mysql -u root -p vehicsmart < database/vehicsmart.sql│   ├── database.example.php    # DB Templateâ”‚   â”œâ”€â”€ database.example.php    # DB Template
-
-// Generate image URL
-
-$imageUrl = $imageManager->getImageUrl($imageId);```
-
-// Output: /api/vehicles/image.php?id=123
-
-│   ├── ImageManager.php        # BLOB Manager Classâ”‚   â”œâ”€â”€ ImageManager.php        # BLOB Manager Class
-
-// Get all vehicle images
-
-$images = $imageManager->getVehicleImages($vehicleId);#### **Step 3:** Configuration
-
-
-
-// Delete an image│   └── security.php            # Security Functionsâ”‚   â””â”€â”€ security.php            # Security Functions
-
-$imageManager->deleteImage($imageId);
-
-```bash
-
-// Set primary image
-
-$imageManager->setPrimaryImage($vehicleId, $imageId);# Copy configuration templates│â”‚
-
-?>
-
-```cp config/config.example.php config/config.php
-
-
-
----cp config/database.example.php config/database.php├── 📂 database/                 # Databaseâ”œâ”€â”€ ðŸ“‚ database/                 # Database
-
-
-
-<div align="center">```
-
-
-
-## 🔧 Advanced Configuration│   ├── vehicsmart.sql          # Full Structureâ”‚   â”œâ”€â”€ vehicsmart.sql          # Full Structure
-
-
-
-</div>**Edit `config/config.php`:**
-
-
-
-### 🔌 Change MySQL Port```php│   └── migrations/             # SQL Migrationsâ”‚   â””â”€â”€ migrations/             # SQL Migrations
-
-
-
-```phpdefine('DB_HOST', 'localhost');
-
-// config/config.php
-
-define('DB_PORT', '3307');  // For XAMPP with custom portdefine('DB_PORT', '3306');        // Use 3307 for some XAMPP installations│â”‚
-
-```
-
-define('DB_NAME', 'vehicsmart');
-
-### 📁 Increase Upload Size Limit
-
-define('DB_USER', 'root');└── 📂 assets/                   # Static Assetsâ””â”€â”€ ðŸ“‚ assets/                   # Static Assets
-
-```php
-
-// config/config.phpdefine('DB_PASS', '');            // Your MySQL password
-
-define('MAX_UPLOAD_SIZE', 10485760);  // 10 MB
-
-```    ├── css/                    # Stylesheets    â”œâ”€â”€ css/                    # Stylesheets
-
-// Also update php.ini:
-
-upload_max_filesize = 10M
-
-post_max_size = 10M
-
-```#### **Step 4:** Image System Migration    ├── js/                     # JavaScript    â”œâ”€â”€ js/                     # JavaScript
-
-
-
-### 🌐 Enable Production Mode
-
-
-
-```phpOpen in your browser:    └── images/                 # Images    â””â”€â”€ images/                 # Images
-
-// config/config.php
-
-define('APP_ENV', 'production');```
-
-define('DEBUG_MODE', false);
-
-error_reporting(0);http://localhost/VehicSmart-Management/admin/migrate_images_blob.php``````
-
-```
-
-```
-
-### ⚡ Enable Performance Cache
-
-
-
-```php
-
-// config/config.php✅ Check the confirmation box  
-
-define('ENABLE_QUERY_CACHE', true);
-
-define('CACHE_LIFETIME', 3600);  // 1 hour✅ Click **"Execute Migration"**------
-
-```
-
-
-
----
-
-#### **Step 5:** Create Admin Account
-
-<div align="center">
-
-
-
-## 🐛 Troubleshooting
-
-```sql## 📦 Installation## ðŸ“¦ Installation
-
-</div>
-
-INSERT INTO users (username, email, password, role, is_verified)
-
-<details>
-
-<summary><b>❌ Database Connection Failed</b></summary>VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);
-
-
-
-**Problem:** Cannot connect to MySQL database```
-
-
-
-**Solutions:**### Prerequisites### Prerequisites
-
-1. Check credentials in `config/config.php`:
-
-   ```php#### **Step 6:** Import Vehicle Illustrations *(Optional)*
-
-   define('DB_USER', 'root');
-
-   define('DB_PASS', 'your_password');
-
-   ```
-
-2. Verify MySQL is running: `services.msc` → MySQL80Open in browser:
-
-3. Test connection:
-
-   ```bash```<div align="center"><div align="center">
-
-   mysql -u root -p
-
-   ```http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php
-
-4. Check port number (3306 or 3307)
-
-```
-
-</details>
-
-
-
-<details>
-
-<summary><b>🖼️ Images Not Displaying</b></summary>✅ Select **"Custom SVG Illustrations"** (Recommended)  | Requirement | Version | Download || Requirement | Version | Download |
-
-
-
-**Problem:** Vehicle images not showing on pages✅ Click **"Import Illustrations"**  
-
-
-
-**Solutions:**⏱️ Wait for completion (~30 seconds)|-------------|---------|----------||-------------|---------|----------|
-
-1. Run the BLOB migration:
-
-   ```
-
-   http://localhost/VehicSmart-Management/admin/migrate_images_blob.php
-
-   ```#### **Step 7:** Access Application| 🟦 **PHP** | 8.2+ | [Download](https://www.php.net/downloads) || ðŸŸ¦ **PHP** | 8.2+ | [Download](https://www.php.net/downloads) |
-
-2. Check image table exists:
-
-   ```sql
-
-   SHOW TABLES LIKE 'vehicle_images_blob';
-
-   ```<div align="center">| 🟧 **MySQL/MariaDB** | 8.0+ / 10.x | [Download](https://www.mysql.com/downloads/) || ðŸŸ§ **MySQL/MariaDB** | 8.0+ / 10.x | [Download](https://www.mysql.com/downloads/) |
-
-3. Import illustrations:
-
-   ```
-
-   http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php
-
-   ```| Portal | URL | Credentials || 🟨 **XAMPP** (Optional) | Latest | [Download](https://www.apachefriends.org/) || ðŸŸ¨ **XAMPP** (Optional) | Latest | [Download](https://www.apachefriends.org/) |
-
-4. Clear browser cache (Ctrl+Shift+Delete)
-
-|:------:|-----|:-----------:|
-
-</details>
-
-| 🏠 **Homepage** | `http://localhost/VehicSmart-Management/` | Public Access || 🟩 **Git** | Latest | [Download](https://git-scm.com/) || ðŸŸ© **Git** | Latest | [Download](https://git-scm.com/) |
-
-<details>
-
-<summary><b>🔌 Wrong MySQL Port Error</b></summary>| 👤 **Client** | `http://localhost/VehicSmart-Management/client/` | Register New |
-
-
-
-**Problem:** `SQLSTATE[HY000] [2002] Connection refused`| 🔧 **Admin** | `http://localhost/VehicSmart-Management/admin/` | admin@vehicsmart.com |
-
-
-
-**Solution:** Update port in config
-
-```php
-
-// config/config.php</div></div></div>
-
-define('DB_PORT', '3307');  // Try 3307 if 3306 fails
-
-
-
-// Check your actual MySQL port
-
-// In XAMPP Control Panel → MySQL Config → my.ini---
-
-// Look for: port=3307
-
-```
-
-
-
-</details><div align="center">### Step 1: Clone Repository### Step 1: Clone Repository
-
-
-
-<details>
-
-<summary><b>🔒 Session Already Started Error</b></summary>
-
-## 🔐 Default Accounts
-
-**Problem:** Warning: session_start() already called
-
-
-
-**Solution:** Already fixed in latest version
-
-- Update to latest commit: `git pull origin main`</div>```bash```bash
-
-- Clear browser cookies
-
-- Restart Apache server
-
-
-
-</details>| Role | Email | Password | Access Level |# Clone the project# Clone the project
-
-
-
-<details>|:----:|-------|----------|:------------:|
-
-<summary><b>📧 Email OTP Not Received</b></summary>
-
-| 👨‍💼 **Admin** | admin@vehicsmart.com | `Admin123!` | 🔓 Full Access |git clone https://github.com/Mohammed-ES/VehicSmart-Management.gitgit clone https://github.com/your-username/VehicSmart.git
-
-**Problem:** Registration OTP email not arriving
-
-| 👤 **Client** | client@example.com | `Client123!` | 📊 Client Portal |
-
-**Solutions:**
-
-1. Check spam/junk folder
-
-2. Configure SMTP in `config/config.php`:
-
-   ```php> ⚠️ **Security Notice:** Change these passwords immediately after installation!
-
-   define('SMTP_HOST', 'smtp.gmail.com');
-
-   define('SMTP_PORT', 587);# Navigate to directory# Navigate to directory
-
-   define('SMTP_USER', 'your-email@gmail.com');
-
-   define('SMTP_PASS', 'your-app-password');---
-
-   ```
-
-3. For testing: Check database `verification_codes` table for manual verificationcd VehicSmart-Managementcd VehicSmart
-
-
-
-</details><div align="center">
-
-
-
----``````
-
-
-
-<div align="center">## 🎯 Usage Guide
-
-
-
-## 📊 Database Schema
-
-
-
-</div></div>
-
-
-
-### Core Tables### Step 2: Database Setup### Step 2: Database Setup
-
-
-
-| Table | Rows | Description | Key Relations |### For Administrators
-
-|:-----:|:----:|-------------|:-------------:|
-
-| `users` | ~1K | User accounts (admin/clients) | → rentals |
-
-| `vehicles` | ~500 | Vehicle inventory | → rentals, images |
-
-| `vehicle_categories` | ~10 | Vehicle types (SUV, Sedan, etc.) | → vehicles |<table>
-
-| `vehicle_images_blob` | ~2K | BLOB image storage | ← vehicles |
-
-| `rentals` | ~5K | Rental transaction history | ← users, vehicles |<tr>```bash```bash
-
-| `maintenance_records` | ~1K | Service & maintenance logs | ← vehicles |
-
-<td width="50%">
-
-### Schema Diagram
-
-# Create database# Create database
-
-```
-
-┌─────────────┐         ┌──────────────────┐         ┌─────────────────────┐**🔐 1. Login to Admin Panel**
-
-│    users    │────────▶│     rentals      │◀────────│      vehicles       │
-
-│  (clients)  │  1:N    │   (bookings)     │   N:1   │   (inventory)       │```mysql -u root -pmysql -u root -p
-
-└─────────────┘         └──────────────────┘         └─────────────────────┘
-
-                                                               │admin/dashboard.php
-
-                                                               │ 1:N
-
-                                                               ▼`````````
-
-                                                      ┌─────────────────────┐
-
-                                                      │ vehicle_images_blob │Use credentials: `admin@vehicsmart.com`
-
-                                                      │   (BLOB storage)    │
-
-                                                      └─────────────────────┘
-
-```
-
-</td>
-
----
-
-<td width="50%">```sql```sql
-
-<div align="center">
-
-
-
-## 🔒 Security Features
-
-**🚙 2. Add New Vehicle**CREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;CREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-</div>
-
-```
-
-<table>
-
-<tr>admin/vehicle_form.phpexit;exit;
-
-<td width="50%">
-
-```
-
-### 🛡️ Protection Mechanisms
-
-Fill form & upload images``````
-
-- 🔐 **SQL Injection** - Prepared Statements (PDO)
-
-- 🔒 **Password Security** - SHA256 Hashing
-
-- 🎫 **Session Management** - Secure, HTTPOnly cookies
-
-- ✅ **Input Validation** - Server-side filtering</td>
-
-- 🚫 **XSS Prevention** - Output escaping
-
-- 🔏 **CSRF Protection** - Token validation</tr>
-
-
-
-</td><tr>```bash```bash
-
-<td width="50%">
-
-<td>
-
-### 👮 Access Control
-
-# Import structure# Import structure
-
-- 🔐 **Role-Based Access** - Admin/Client separation
-
-- 🔑 **Authentication** - Email verification required**🖼️ 3. Manage Vehicle Images**
-
-- 🚪 **Authorization** - Page-level restrictions
-
-- 📝 **Audit Logs** - User activity tracking```mysql -u root -p vehicsmart < database/vehicsmart.sqlmysql -u root -p vehicsmart < database/vehicsmart.sql
-
-- 🔒 **HTTPS Ready** - SSL/TLS support
-
-- 🔑 **OTP System** - Two-factor verificationadmin/vehicle_images.php?vehicle_id=X
-
-
-
-</td>`````````
-
-</tr>
-
-</table>Upload, set primary, delete images
-
-
-
----
-
-
-
-<div align="center"></td>
-
-
-
-## ⚡ Performance Metrics<td>### Step 3: Configuration### Step 3: Configuration
-
-
-
-</div>
-
-
-
-| Page | Initial Load | Cached Load | Database Queries | Status |**📊 4. View Image Gallery**
-
-|:----:|:------------:|:-----------:|:----------------:|:------:|
-
-| 🏠 Homepage | 0.8s | 0.2s | 3 | ✅ Excellent |```
-
-| 📊 Dashboard | 1.2s | 0.4s | 8 | ✅ Good |
-
-| 🖼️ Gallery | 1.5s | 0.3s | 12 | ✅ Good |admin/vehicle_gallery.php```bash```bash
-
-| 🔍 Search | 0.9s | 0.5s | 5 | ✅ Excellent |
-
-| 🚗 Vehicle Details | 0.7s | 0.2s | 4 | ✅ Excellent |```
-
-
-
-### 🚀 Optimization TechniquesBrowse all vehicle images# Copy configuration files# Copy configuration files
-
-
-
-```
-
-✅ HTTP Caching (24 hours)
-
-✅ Database Query Optimization  </td>cp config/config.example.php config/config.phpcp config/config.example.php config/config.php
-
-✅ Lazy Image Loading
-
-✅ SVG Compression (< 5KB)</tr>
-
-✅ PDO Prepared Statements
-
-✅ Gzip Compression</table>cp config/database.example.php config/database.phpcp config/database.example.php config/database.php
-
-✅ Minified CSS/JS
-
-✅ CDN-Ready Architecture
-
-```
-
----``````
-
----
-
-
-
-<div align="center">
-
-### For Clients
-
-## 🤝 Contributing
-
-
-
-</div>
-
-<table>**Edit `config/config.php`:****Edit `config/config.php`:**
-
-Contributions are **welcome** and **appreciated**! 🎉
-
-<tr>
-
-### How to Contribute
-
-<td width="50%">```php```php
-
-1. 🍴 **Fork** the repository
-
-2. 🌿 **Create** your feature branch
-
-   ```bash
-
-   git checkout -b feature/AmazingFeature**📝 Registration Process**define('DB_HOST', 'localhost');define('DB_HOST', 'localhost');
-
-   ```
-
-3. 💾 **Commit** your changes
-
-   ```bash
-
-   git commit -m '✨ Add: Amazing new feature'1. Navigate to `auth/register.php`define('DB_PORT', '3306');        // Use 3307 for some XAMPPdefine('DB_PORT', '3306');        // Use 3307 for some XAMPP
-
-   ```
-
-4. 📤 **Push** to your branch2. Fill registration form
-
-   ```bash
-
-   git push origin feature/AmazingFeature3. Receive OTP via emaildefine('DB_NAME', 'vehicsmart');define('DB_NAME', 'vehicsmart');
-
-   ```
-
-5. 🔀 **Open** a Pull Request4. Verify code at `auth/verify_code.php`
-
-
-
-### 📝 Commit Convention5. Login with credentialsdefine('DB_USER', 'root');define('DB_USER', 'root');
-
-
-
-```
-
-✨ Add: New feature
-
-🐛 Fix: Bug fix</td>define('DB_PASS', '');            // Your MySQL passworddefine('DB_PASS', '');            // Your MySQL password
-
-📚 Docs: Documentation
-
-🎨 Style: Formatting<td width="50%">
-
-♻️ Refactor: Code restructuring
-
-⚡ Perf: Performance improvement``````
-
-✅ Test: Adding tests
-
-🔧 Chore: Maintenance**🚗 Renting a Vehicle**
-
-```
-
-
-
----
-
-1. Browse catalog at `client/select_vehicle.php`
-
-<div align="center">
-
-2. Use filters to find your perfect vehicle### Step 4: Image System Migration### Step 4: Image System Migration
-
-## 📸 Screenshots & Demo
-
-3. Click vehicle card to view details
-
-</div>
-
-4. Click **"Rent or Buy"** button
-
-### 🖥️ Admin Dashboard
-
-<img src="https://via.placeholder.com/1000x600/4F46E5/ffffff?text=Admin+Dashboard+-+Analytics+%26+Management" alt="Admin Dashboard" />5. Complete booking form
-
-
-
-### 👤 Client PortalOpen in browser:Open in browser:
-
-<img src="https://via.placeholder.com/1000x600/10B981/ffffff?text=Client+Portal+-+Browse+%26+Book+Vehicles" alt="Client Portal" />
-
-</td>
-
-### 🚗 Vehicle Catalog
-
-<img src="https://via.placeholder.com/1000x600/F59E0B/ffffff?text=Vehicle+Catalog+-+Smart+Search+%26+Filters" alt="Vehicle Catalog" /></tr>``````
-
-
-
-### 🖼️ Image Gallery</table>
-
-<img src="https://via.placeholder.com/1000x600/8B5CF6/ffffff?text=Image+Gallery+-+BLOB+Storage+System" alt="Image Gallery" />
-
-http://localhost/VehicSmart-Management/admin/migrate_images_blob.phphttp://localhost/VehicSmart/admin/migrate_images_blob.php
-
----
-
----
-
-<div align="center">
-
-``````
-
-## 📄 License
-
-<div align="center">
-
-This project is licensed under the **MIT License**
-
-✅ Check the box and click **"Execute Migration"**âœ… Check the box and click **"Execute Migration"**
-
-See [LICENSE](LICENSE) for more information
-
-## 🎨 BLOB Image System Architecture
-
-</div>
-
-
-
----
-
-</div>
-
-<div align="center">
-
-### Step 5: Create Admin Account### Step 5: Create Admin Account
-
-## 🌟 Show Your Support
-
-### Why BLOB Storage? 
-
-**Give a ⭐️ if this project helped you!**
-
-
-
-<p>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/stargazers"><table>
-
-    <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/>
-
-  </a><tr>```sql```sql
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/network/members">
-
-    <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/><td width="25%" align="center">
-
-  </a>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/watchers">INSERT INTO users (username, email, password, role, is_verified)INSERT INTO users (username, email, password, role, is_verified)
-
-    <img src="https://img.shields.io/github/watchers/Mohammed-ES/VehicSmart-Management?style=social" alt="Watchers"/>
-
-  </a>**💾 Database Storage**
-
-</p>
-
-VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);
-
----
-
-All images in one place
-
-### 💙 Made with Love by [Mohammed ES](https://github.com/Mohammed-ES)
-
-``````
-
-<p>
-
-  <a href="https://github.com/Mohammed-ES"></td>
-
-    <img src="https://img.shields.io/badge/GitHub-Mohammed--ES-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-
-  </a><td width="25%" align="center">
-
-  <a href="https://linkedin.com/in/your-profile">
-
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-
-  </a>
-
-</p>**🔒 Enhanced Security**### Step 6: Import Vehicle Illustrations (Optional)### Step 6: Import Vehicle Illustrations (Optional)
-
-
-
----
-
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=100&section=footer" />Centralized access control
-
-
-
-**[⬆ Back to Top](#)**
-
-
-
-</div></td>Open in browser:Open in browser:
-
-
-<td width="25%" align="center">
-
-``````
-
-**📦 Simple Backup**
-
-http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.phphttp://localhost/VehicSmart/admin/import_vehicle_illustrations.php
-
-One database dump = everything
-
-``````
-
-</td>
-
-<td width="25%" align="center">✅ Choose **"Custom SVG Illustrations"** (Recommended)  âœ… Choose **"Custom SVG Illustrations"** (Recommended)  
-
-
-
-**🚀 Easy Deployment**✅ Click **"Import Illustrations"**âœ… Click **"Import Illustrations"**
-
-
-
-No file permission issues
-
-
-
-</td>### Step 7: Access Application### Step 7: Access Application
-
-</tr>
-
-</table>
-
-
-
-### 🔌 REST API Endpoint<div align="center"><div align="center">
-
-
-
-```http
-
-GET /api/vehicles/image.php?id={image_id}
-
-| Portal | URL | Role || Portal | URL | Role |
-
-Response Headers:
-
-  Content-Type: image/jpeg | image/png | image/svg+xml|--------|-----|------||--------|-----|------|
-
-  Cache-Control: public, max-age=86400
-
-  Content-Length: {size}| 🏠 **Homepage** | `http://localhost/VehicSmart-Management/` | Public || ðŸ  **Homepage** | `http://localhost/VehicSmart/` | Public |
-
-
-
-Response Body:| 👤 **Client Portal** | `http://localhost/VehicSmart-Management/client/` | Client || ðŸ‘¤ **Client Portal** | `http://localhost/VehicSmart/client/` | Client |
-
-  Binary image data
-
-```| 🔧 **Admin Panel** | `http://localhost/VehicSmart-Management/admin/` | Admin || ðŸ”§ **Admin Panel** | `http://localhost/VehicSmart/admin/` | Admin |
-
-
-
-### 💻 ImageManager Class Usage
-
-
-
-```php</div></div>
-
-<?php
-
-// Initialize ImageManager
-
-$imageManager = new ImageManager($db);
-
-------
-
-// Save a new vehicle image
-
-$imageId = $imageManager->saveVehicleImage(
-
-    $vehicleId,      // Vehicle ID
-
-    $fileData,       // Binary file data## 🔐 Default Accounts## ðŸ” Default Accounts
-
-    $isPrimary       // Is this the primary image?
-
-);
-
-
-
-// Get vehicle's display image<div align="center"><div align="center">
-
-$image = $imageManager->getVehicleDisplayImage($vehicleId);
-
-
-
-// Generate image URL
-
-$imageUrl = $imageManager->getImageUrl($imageId);| Role | Email | Password | Access || Role | Email | Password | Access |
-
-// Output: /api/vehicles/image.php?id=123
-
-|------|-------|----------|--------||------|-------|----------|--------|
-
-// Get all vehicle images
-
-$images = $imageManager->getVehicleImages($vehicleId);| 👨‍💼 **Admin** | admin@vehicsmart.com | Admin123! | Full Access || ðŸ‘¨â€ðŸ’¼ **Admin** | admin@vehicsmart.com | Admin123! | Full Access |
-
-
-
-// Delete an image| 👤 **Client** | client@example.com | Client123! | Client Portal || ðŸ‘¤ **Client** | client@example.com | Client123! | Client Portal |
-
-$imageManager->deleteImage($imageId);
-
-
-
-// Set primary image
-
-$imageManager->setPrimaryImage($vehicleId, $imageId);⚠️ **Important:** Change these passwords after installation!âš ï¸ **Important:** Change these passwords after installation!
-
-?>
-
-```
-
-
-
----</div></div>
-
-
-
-<div align="center">
-
-
-
-## 🔧 Advanced Configuration------
-
-
-
-</div>
-
-
-
-### 🔌 Change MySQL Port## 🎯 Usage## ðŸŽ¯ Usage
-
-
-
-```php
-
-// config/config.php
-
-define('DB_PORT', '3307');  // For XAMPP with custom port### For Administrators### For Administrators
-
-```
-
-
-
-### 📁 Increase Upload Size Limit
-
-<table><table>
-
-```php
-
-// config/config.php<tr><tr>
-
-define('MAX_UPLOAD_SIZE', 10485760);  // 10 MB
-
-<td><td>
-
-// Also update php.ini:
-
-upload_max_filesize = 10M
-
-post_max_size = 10M
-
-```**1. Login****1. Login**
-
-
-
-### 🌐 Enable Production Mode``````
-
-
-
-```phpadmin/dashboard.phpadmin/dashboard.php
-
-// config/config.php
-
-define('APP_ENV', 'production');``````
-
-define('DEBUG_MODE', false);
-
-error_reporting(0);
-
-```
-
-</td></td>
-
-### ⚡ Enable Performance Cache
-
-<td><td>
-
-```php
-
-// config/config.php
-
-define('ENABLE_QUERY_CACHE', true);
-
-define('CACHE_LIFETIME', 3600);  // 1 hour**2. Add Vehicle****2. Add Vehicle**
-
-```
-
-``````
-
----
-
-admin/vehicle_form.phpadmin/vehicle_form.php
-
-<div align="center">
-
-``````
-
-## 🐛 Troubleshooting
-
-
-
-</div>
-
-</td></td>
-
-<details>
-
-<summary><b>❌ Database Connection Failed</b></summary></tr></tr>
-
-
-
-**Problem:** Cannot connect to MySQL database<tr><tr>
-
-
-
-**Solutions:**<td><td>
-
-1. Check credentials in `config/config.php`:
-
-   ```php
-
-   define('DB_USER', 'root');
-
-   define('DB_PASS', 'your_password');**3. Manage Images****3. Manage Images**
-
-   ```
-
-2. Verify MySQL is running: `services.msc` → MySQL80``````
-
-3. Test connection:
-
-   ```bashadmin/vehicle_images.php?vehicle_id=Xadmin/vehicle_images.php?vehicle_id=X
-
-   mysql -u root -p
-
-   `````````
-
-4. Check port number (3306 or 3307)
-
-
-
-</details>
-
-</td></td>
-
-<details>
-
-<summary><b>🖼️ Images Not Displaying</b></summary><td><td>
-
-
-
-**Problem:** Vehicle images not showing on pages
-
-
-
-**Solutions:****4. View Gallery****4. View Gallery**
-
-1. Run the BLOB migration:
-
-   `````````
-
-   http://localhost/VehicSmart-Management/admin/migrate_images_blob.php
-
-   ```admin/vehicle_gallery.phpadmin/vehicle_gallery.php
-
-2. Check image table exists:
-
-   ```sql``````
-
-   SHOW TABLES LIKE 'vehicle_images_blob';
-
-   ```
-
-3. Import illustrations:
-
-   ```</td></td>
-
-   http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php
-
-   ```</tr></tr>
-
-4. Clear browser cache (Ctrl+Shift+Delete)
-
-</table></table>
-
-</details>
-
-
-
-<details>
-
-<summary><b>🔌 Wrong MySQL Port Error</b></summary>### For Clients### For Clients
-
-
-
-**Problem:** `SQLSTATE[HY000] [2002] Connection refused`
-
-
-
-**Solution:** Update port in config<table><table>
-
-```php
-
-// config/config.php<tr><tr>
-
-define('DB_PORT', '3307');  // Try 3307 if 3306 fails
-
-<td width="50%"><td width="50%">
-
-// Check your actual MySQL port
-
-// In XAMPP Control Panel → MySQL Config → my.ini
-
-// Look for: port=3307
-
-```**📝 Register****ðŸ“ Register**
-
-
-
-</details>1. Go to `auth/register.php`1. Go to `auth/register.php`
-
-
-
-<details>2. Fill registration form2. Fill registration form
-
-<summary><b>🔒 Session Already Started Error</b></summary>
-
-3. Verify email with OTP3. Verify email with OTP
-
-**Problem:** Warning: session_start() already called
-
-4. Login to your account4. Login to your account
-
-**Solution:** Already fixed in latest version
-
-- Update to latest commit: `git pull origin main`
-
-- Clear browser cookies
-
-- Restart Apache server</td></td>
-
-
-
-</details><td width="50%"><td width="50%">
-
-
-
-<details>
-
-<summary><b>📧 Email OTP Not Received</b></summary>
-
-**🚗 Rent a Vehicle****ðŸš— Rent a Vehicle**
-
-**Problem:** Registration OTP email not arriving
-
-1. Browse `client/select_vehicle.php`1. Browse `client/select_vehicle.php`
-
-**Solutions:**
-
-1. Check spam/junk folder2. Use filters to find vehicle2. Use filters to find vehicle
-
-2. Configure SMTP in `config/config.php`:
-
-   ```php3. Click on vehicle card3. Click on vehicle card
-
-   define('SMTP_HOST', 'smtp.gmail.com');
-
-   define('SMTP_PORT', 587);4. Click "Rent or Buy"4. Click "Rent or Buy"
-
-   define('SMTP_USER', 'your-email@gmail.com');
-
-   define('SMTP_PASS', 'your-app-password');
-
-   ```
-
-3. For testing: Check database `verification_codes` table for manual verification</td></td>
-
-
-
-</details></tr></tr>
-
-
-
----</table></table>
-
-
-
-<div align="center">
-
-
-
-## 📊 Database Schema------
-
-
-
-</div>
-
-
-
-### Core Tables## 🎨 BLOB Image System## ðŸŽ¨ BLOB Image System
-
-
-
-| Table | Rows | Description | Key Relations |
-
-|:-----:|:----:|-------------|:-------------:|
-
-| `users` | ~1K | User accounts (admin/clients) | → rentals |<div align="center"><div align="center">
-
-| `vehicles` | ~500 | Vehicle inventory | → rentals, images |
-
-| `vehicle_categories` | ~10 | Vehicle types (SUV, Sedan, etc.) | → vehicles |
-
-| `vehicle_images_blob` | ~2K | BLOB image storage | ← vehicles |
-
-| `rentals` | ~5K | Rental transaction history | ← users, vehicles |### Why BLOB Storage?### Why BLOB Storage?
-
-| `maintenance_records` | ~1K | Service & maintenance logs | ← vehicles |
-
-
-
-### Schema Diagram
-
-| Advantage | Description || Advantage | Description |
-
-```
-
-┌─────────────┐         ┌──────────────────┐         ┌─────────────────────┐|-----------|-------------||-----------|-------------|
-
-│    users    │────────▶│     rentals      │◀────────│      vehicles       │
-
-│  (clients)  │  1:N    │   (bookings)     │   N:1   │   (inventory)       │| ✅ **No Upload Folder** | Everything in database || âœ… **No Upload Folder** | Everything in database |
-
-└─────────────┘         └──────────────────┘         └─────────────────────┘
-
-                                                               │| ✅ **Simple Backup** | One database backup || âœ… **Simple Backup** | One database backup |
-
-                                                               │ 1:N
-
-                                                               ▼| ✅ **Better Security** | Centralized access control || âœ… **Better Security** | Centralized access control |
-
-                                                      ┌─────────────────────┐
-
-                                                      │ vehicle_images_blob │| ✅ **Easy Deployment** | No file permissions issues || âœ… **Easy Deployment** | No file permissions issues |
-
-                                                      │   (BLOB storage)    │
-
-                                                      └─────────────────────┘
-
-```
-
-</div></div>
-
----
-
-
-
-<div align="center">
-
-### API Endpoint### API Endpoint
-
-## 🔒 Security Features
-
-
-
-</div>
-
-```http```http
-
-<table>
-
-<tr>GET /api/vehicles/image.php?id={image_id}GET /api/vehicles/image.php?id={image_id}
-
-<td width="50%">
-
-
-
-### 🛡️ Protection Mechanisms
-
-Headers:Headers:
-
-- 🔐 **SQL Injection** - Prepared Statements (PDO)
-
-- 🔒 **Password Security** - SHA256 Hashing  Content-Type: image/jpeg|png|svg+xml  Content-Type: image/jpeg|png|svg+xml
-
-- 🎫 **Session Management** - Secure, HTTPOnly cookies
-
-- ✅ **Input Validation** - Server-side filtering  Cache-Control: public, max-age=86400  Cache-Control: public, max-age=86400
-
-- 🚫 **XSS Prevention** - Output escaping
-
-- 🔏 **CSRF Protection** - Token validation
-
-
-
-</td>Response: Binary image dataResponse: Binary image data
-
-<td width="50%">
-
-``````
-
-### 👮 Access Control
-
-
-
-- 🔐 **Role-Based Access** - Admin/Client separation
-
-- 🔑 **Authentication** - Email verification required### ImageManager Class### ImageManager Class
-
-- 🚪 **Authorization** - Page-level restrictions
-
-- 📝 **Audit Logs** - User activity tracking
-
-- 🔒 **HTTPS Ready** - SSL/TLS support
-
-- 🔑 **OTP System** - Two-factor verification```php```php
-
-
-
-</td>$imageManager = new ImageManager($db);$imageManager = new ImageManager($db);
-
-</tr>
-
-</table>
-
-
-
----// Save image// Save image
-
-
-
-<div align="center">$imageManager->saveVehicleImage($vehicle_id, $file_data, $is_primary);$imageManager->saveVehicleImage($vehicle_id, $file_data, $is_primary);
-
-
-
-## ⚡ Performance Metrics
-
-
-
-</div>// Get display image// Get display image
-
-
-
-| Page | Initial Load | Cached Load | Database Queries | Status |$image = $imageManager->getVehicleDisplayImage($vehicle_id);$image = $imageManager->getVehicleDisplayImage($vehicle_id);
-
-|:----:|:------------:|:-----------:|:----------------:|:------:|
-
-| 🏠 Homepage | 0.8s | 0.2s | 3 | ✅ Excellent |
-
-| 📊 Dashboard | 1.2s | 0.4s | 8 | ✅ Good |
-
-| 🖼️ Gallery | 1.5s | 0.3s | 12 | ✅ Good |// Get image URL// Get image URL
-
-| 🔍 Search | 0.9s | 0.5s | 5 | ✅ Excellent |
-
-| 🚗 Vehicle Details | 0.7s | 0.2s | 4 | ✅ Excellent |$url = $imageManager->getImageUrl($image_id);$url = $imageManager->getImageUrl($image_id);
-
-
-
-### 🚀 Optimization Techniques``````
-
-
-
-```
-
-✅ HTTP Caching (24 hours)
-
-✅ Database Query Optimization  ------
-
-✅ Lazy Image Loading
-
-✅ SVG Compression (< 5KB)
-
-✅ PDO Prepared Statements
-
-✅ Gzip Compression## 🔧 Advanced Configuration## ðŸ”§ Advanced Configuration
-
-✅ Minified CSS/JS
-
-✅ CDN-Ready Architecture
-
-```
-
-### Change MySQL Port### Change MySQL Port
-
----
-
-
-
-<div align="center">
-
-```php```php
-
-## 🤝 Contributing
-
-// config/config.php// config/config.php
-
-</div>
-
-define('DB_PORT', '3307');  // For XAMPP with port 3307define('DB_PORT', '3307');  // For XAMPP with port 3307
-
-Contributions are **welcome** and **appreciated**! 🎉
-
-``````
-
-### How to Contribute
-
-
-
-1. 🍴 **Fork** the repository
-
-2. 🌿 **Create** your feature branch### Increase Upload Limit### Increase Upload Limit
-
-   ```bash
-
-   git checkout -b feature/AmazingFeature
-
-   ```
-
-3. 💾 **Commit** your changes```php```php
-
-   ```bash
-
-   git commit -m '✨ Add: Amazing new feature'// config/config.php// config/config.php
-
-   ```
-
-4. 📤 **Push** to your branchdefine('MAX_UPLOAD_SIZE', 10485760);  // 10 MBdefine('MAX_UPLOAD_SIZE', 10485760);  // 10 MB
-
-   ```bash
-
-   git push origin feature/AmazingFeature``````
-
-   ```
-
-5. 🔀 **Open** a Pull Request
-
-
-
-### 📝 Commit Convention### Enable Production Mode### Enable Production Mode
-
-
-
-```
-
-✨ Add: New feature
-
-🐛 Fix: Bug fix```php```php
-
-📚 Docs: Documentation
-
-🎨 Style: Formatting// config/config.php// config/config.php
-
-♻️ Refactor: Code restructuring
-
-⚡ Perf: Performance improvementdefine('APP_ENV', 'production');define('APP_ENV', 'production');
-
-✅ Test: Adding tests
-
-🔧 Chore: Maintenance``````
-
-```
-
-
-
----
-
-------
-
-<div align="center">
-
-
-
-## 📸 Screenshots & Demo
-
-## 🐛 Troubleshooting## ðŸ› Troubleshooting
-
-</div>
-
-
-
-### 🖥️ Admin Dashboard
-
-<img src="https://via.placeholder.com/1000x600/4F46E5/ffffff?text=Admin+Dashboard+-+Analytics+%26+Management" alt="Admin Dashboard" /><details><details>
-
-
-
-### 👤 Client Portal<summary><b>❌ Error: "Connection failed"</b></summary><summary><b>âŒ Error: "Connection failed"</b></summary>
-
-<img src="https://via.placeholder.com/1000x600/10B981/ffffff?text=Client+Portal+-+Browse+%26+Book+Vehicles" alt="Client Portal" />
-
-
-
-### 🚗 Vehicle Catalog
-
-<img src="https://via.placeholder.com/1000x600/F59E0B/ffffff?text=Vehicle+Catalog+-+Smart+Search+%26+Filters" alt="Vehicle Catalog" />**Solution:** Check credentials in `config/config.php`**Solution:** Check credentials in `config/config.php`
-
-
-
-### 🖼️ Image Gallery```php```php
-
-<img src="https://via.placeholder.com/1000x600/8B5CF6/ffffff?text=Image+Gallery+-+BLOB+Storage+System" alt="Image Gallery" />
-
-define('DB_USER', 'root');define('DB_USER', 'root');
-
----
-
-define('DB_PASS', 'your_password');define('DB_PASS', 'your_password');
-
-<div align="center">
-
-``````
-
-## 📄 License
-
-</details></details>
-
-This project is licensed under the **MIT License**
-
-
-
-See [LICENSE](LICENSE) for more information
-
-<details><details>
-
-</div>
-
-<summary><b>🖼️ Images not displaying</b></summary><summary><b>ðŸ–¼ï¸ Images not displaying</b></summary>
-
----
-
-
-
-<div align="center">
-
-**Solution:** Run the migration**Solution:** Run the migration
-
-## 🌟 Show Your Support
-
-``````
-
-**Give a ⭐️ if this project helped you!**
-
-http://localhost/VehicSmart-Management/admin/migrate_images_blob.phphttp://localhost/VehicSmart/admin/migrate_images_blob.php
-
-<p>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/stargazers">``````
-
-    <img src="https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social" alt="Stars"/>
-
-  </a></details></details>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/network/members">
-
-    <img src="https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social" alt="Forks"/>
-
-  </a>
-
-  <a href="https://github.com/Mohammed-ES/VehicSmart-Management/watchers"><details><details>
-
-    <img src="https://img.shields.io/github/watchers/Mohammed-ES/VehicSmart-Management?style=social" alt="Watchers"/>
-
-  </a><summary><b>🔌 Wrong MySQL port</b></summary><summary><b>ðŸ”Œ Wrong MySQL port</b></summary>
-
-</p>
-
-
-
----
-
-**Solution:** Update port in config**Solution:** Update port in config
-
-### 💙 Made with Love by [Mohammed ES](https://github.com/Mohammed-ES)
-
-```php```php
-
-<p>
-
-  <a href="https://github.com/Mohammed-ES">define('DB_PORT', '3307');  // Change to your portdefine('DB_PORT', '3307');  // Change to your port
-
-    <img src="https://img.shields.io/badge/GitHub-Mohammed--ES-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-
-  </a>``````
-
-  <a href="https://linkedin.com/in/your-profile">
-
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></details></details>
-
-  </a>
-
-</p>
-
-
-
----<details><details>
-
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=100&section=footer" /><summary><b>🔒 Session errors</b></summary><summary><b>ðŸ”’ Session errors</b></summary>
-
-
-
-**[⬆ Back to Top](#vehicsmart)**
-
-
-
-</div>**Solution:** Already fixed in latest version. Clear browser cache.**Solution:** Already fixed in latest version. Clear browser cache.
-
-
-</details></details>
-
-
-
-------
-
-
-
-## 📊 Database Schema## ðŸ“Š Database Schema
-
-
-
-<div align="center"><div align="center">
-
-
-
-### Main Tables### Main Tables
-
-
-
-| Table | Description | Relations || Table | Description | Relations |
-
-|-------|-------------|-----------||-------|-------------|-----------|
-
-| `users` | Users (admin/clients) | → rentals || `users` | Users (admin/clients) | â†’ rentals |
-
-| `vehicles` | Available vehicles | → rentals, images || `vehicles` | Available vehicles | â†’ rentals, images |
-
-| `vehicle_categories` | Vehicle categories | → vehicles || `vehicle_categories` | Vehicle categories | â†’ vehicles |
-
-| `vehicle_images_blob` | Images (BLOB) | ← vehicles || `vehicle_images_blob` | Images (BLOB) | â† vehicles |
-
-| `rentals` | Rental history | ← users, vehicles || `rentals` | Rental history | â† users, vehicles |
-
-| `maintenance_records` | Maintenance logs | ← vehicles || `maintenance_records` | Maintenance logs | â† vehicles |
-
-
-
-</div></div>
-
-
-
-------
-
-
-
-## 🔒 Security Features## ðŸ”’ Security Features
-
-
-
-<div align="center"><div align="center">
-
-
-
-| Feature | Implementation || Feature | Implementation |
-
-|---------|----------------||---------|----------------|
-
-| 🛡️ **SQL Injection** | Prepared Statements (PDO) || ðŸ›¡ï¸ **SQL Injection** | Prepared Statements (PDO) |
-
-| 🔐 **Password Security** | SHA256 Hashing || ðŸ” **Password Security** | SHA256 Hashing |
-
-| 🎫 **Session Security** | CSRF Tokens, Strict Validation || ðŸŽ« **Session Security** | CSRF Tokens, Strict Validation |
-
-| ✅ **Input Validation** | All inputs filtered || âœ… **Input Validation** | All inputs filtered |
-
-| 👮 **Access Control** | Role-based (Admin/Client) || ðŸ‘® **Access Control** | Role-based (Admin/Client) |
-
-| 🔒 **HTTPS Ready** | SSL Configuration available || ðŸ”’ **HTTPS Ready** | SSL Configuration available |
-
-
-
-</div></div>
-
-
-
-------
-
-
-
-## ⚡ Performance Metrics## âš¡ Performance Metrics
-
-
-
-<div align="center"><div align="center">
-
-
-
-| Page | Load Time | Status || Page | Load Time | Status |
-
-|------|-----------|--------||------|-----------|--------|
-
-| 🏠 Homepage | ~0.5s | ✅ Fast || ðŸ  Homepage | ~0.5s | âœ… Fast |
-
-| 📊 Dashboard | ~1.0s | ✅ Good || ðŸ“Š Dashboard | ~1.0s | âœ… Good |
-
-| 🖼️ Images | ~0.3s | ✅ Fast || ðŸ–¼ï¸ Images | ~0.3s | âœ… Fast |
-
-| 🔍 Search | ~0.8s | ✅ Good || ðŸ” Search | ~0.8s | âœ… Good |
-
-
-
-### Optimizations### Optimizations
-
-🚀 HTTP Caching (24h)  ðŸš€ HTTP Caching (24h)  
-
-🚀 Lazy Loading  ðŸš€ Lazy Loading  
-
-🚀 SVG Images (<5KB)  ðŸš€ SVG Images (<5KB)  
-
-🚀 Database Indexes  ðŸš€ Database Indexes  
-
-🚀 PDO Prepared StatementsðŸš€ PDO Prepared Statements
-
-
-
-</div></div>
-
-
-
-------
-
-
-
-## 🤝 Contributing## ðŸš€ Deploying to GitHub
-
-
-
-Contributions are welcome! To contribute:### Step-by-Step Guide
-
-
-
-1. Fork the project**Step 1: Initialize Git**
-
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)```bash
-
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)cd C:\xampp\htdocs\VehicSmart
-
-4. Push to the branch (`git push origin feature/AmazingFeature`)git init
-
-5. Open a Pull Request```
-
-
-
----**Step 2: Add Files**
-
-```bash
-
-## 📸 Screenshotsgit add .
-
-```
-
-<div align="center">
-
-**Step 3: Commit**
-
-### Admin Dashboard```bash
-
-![Admin Dashboard](https://via.placeholder.com/800x500/4F46E5/ffffff?text=Admin+Dashboard)git commit -m "Initial commit - VehicSmart v1.0"
-
-```
-
-### Client Portal
-
-![Client Portal](https://via.placeholder.com/800x500/10B981/ffffff?text=Client+Portal)**Step 4: Create GitHub Repository**
-
-1. Go to [GitHub](https://github.com)
-
-### Vehicle Catalog2. Click **"New Repository"**
-
-![Vehicle Catalog](https://via.placeholder.com/800x500/F59E0B/ffffff?text=Vehicle+Catalog)3. Name it **"VehicSmart"**
-
-4. Don't initialize with README
-
-</div>5. Click **"Create Repository"**
-
-
-
----**Step 5: Connect to GitHub**
-
-```bash
-
-## 🌟 Show Your Supportgit remote add origin https://github.com/YOUR-USERNAME/VehicSmart.git
-
-```
-
-<div align="center">
-
-**Step 6: Push to GitHub**
-
-**Give a ⭐️ if this project helped you!**```bash
-
-# For main branch
-
-[![GitHub Stars](https://img.shields.io/github/stars/Mohammed-ES/VehicSmart-Management?style=social)](https://github.com/Mohammed-ES/VehicSmart-Management)git branch -M main
-
-[![GitHub Forks](https://img.shields.io/github/forks/Mohammed-ES/VehicSmart-Management?style=social)](https://github.com/Mohammed-ES/VehicSmart-Management/fork)git push -u origin main
-
-
-
-### Made with ❤️ by Mohammed ES# OR for master branch
-
-git branch -M master
-
----git push -u origin master
-
-```
-
-**[⬆ Back to Top](#-vehicsmart)**
-
-**Step 7: Verify**
-
-</div>Visit: `https://github.com/YOUR-USERNAME/VehicSmart`
-
-
----
-
-### ðŸ”— Share Your Project
-
-**Direct Link:**
-```
-https://github.com/YOUR-USERNAME/VehicSmart
-```
-
-**Clone Command for Others:**
-```bash
-git clone https://github.com/YOUR-USERNAME/VehicSmart.git
-```
-
-**Add to Your Portfolio:**
-```markdown
-## VehicSmart - Vehicle Management System
-ðŸš— Full-featured vehicle rental platform built with PHP & MySQL
-[View Project](https://github.com/YOUR-USERNAME/VehicSmart)
-```
-
----
-
-<div align="center">
-
-## ðŸŒŸ Show Your Support
-
-**Give a â­ï¸ if this project helped you!**
-
-### Made with â¤ï¸ by VehicSmart Team
-
----
-
-**[â¬† Back to Top](#-vehicsmart)**
-
-</div>
-
----
-
-## âœ¨ FonctionnalitÃ©s Principales
-
-### ðŸ‘¥ Espace Client
-- ðŸ” **Authentification sÃ©curisÃ©e** - Inscription, connexion, rÃ©initialisation de mot de passe avec OTP
-- ðŸš™ **Catalogue de vÃ©hicules** - Recherche avancÃ©e avec filtres (type, prix, carburant)
-- ðŸ“¸ **Illustrations dynamiques** - Images stockÃ©es en base de donnÃ©es (BLOB)
-- ðŸ“Š **Tableau de bord** - Statistiques et historique des locations
-- ðŸ  **Gestion des vÃ©hicules personnels** - Suivi de sa propre flotte
-- ðŸ›’ **Location/Achat** - SystÃ¨me complet de rÃ©servation
-
-### ðŸ”§ Espace Administration
-- ðŸ“Š **Dashboard administrateur** - Vue d'ensemble complÃ¨te
-- ðŸš— **Gestion des vÃ©hicules** - CRUD complet avec upload d'images
-- ðŸ‘¤ **Gestion des clients** - Liste, Ã©dition, suppression
-- ðŸ–¼ï¸ **Galerie d'images** - SystÃ¨me BLOB avec API optimisÃ©e
-- ðŸ“¥ **Import d'illustrations** - 3 mÃ©thodes (SVG, Placeholder, Unsplash)
-- ðŸ” **SÃ©curitÃ© renforcÃ©e** - Sessions protÃ©gÃ©es, validation des accÃ¨s
-- ðŸ—ƒï¸ **Maintenance base de donnÃ©es** - Outils de migration et diagnostic
-
-### ðŸŽ¨ SystÃ¨me d'Images AvancÃ©
-- ðŸ’¾ **Stockage BLOB** - Images en base de donnÃ©es MySQL/MariaDB
-- ðŸŽ¨ **SVG personnalisÃ©s** - Illustrations gÃ©nÃ©rÃ©es automatiquement
-- ðŸš€ **Cache HTTP** - Performance optimale (24h)
-- ðŸ“± **Responsive** - Adaptatif tous Ã©crans
-- ðŸ”„ **API REST** - Endpoint `/api/vehicles/image.php?id=X`
-
----
-
-## ðŸ› ï¸ Technologies UtilisÃ©es
-
-| Technologie | Version | Usage |
-|------------|---------|-------|
-| **PHP** | 8.2+ | Backend, logique mÃ©tier |
-| **MySQL/MariaDB** | 8.0+ / 10.x | Base de donnÃ©es |
-| **Tailwind CSS** | 2.2+ | Framework CSS |
-| **JavaScript** | ES6+ | InteractivitÃ© frontend |
-| **PDO** | - | Connexion base de donnÃ©es sÃ©curisÃ©e |
-| **SVG** | - | Illustrations vectorielles |
-
----
-
-## ðŸ“ Structure du Projet
-
-```
-VehicSmart/
-â”œâ”€â”€ ðŸ“‚ admin/                    # Interface d'administration
-â”‚   â”œâ”€â”€ dashboard.php            # Tableau de bord admin
-â”‚   â”œâ”€â”€ vehicles_manage.php      # Gestion des vÃ©hicules
-â”‚   â”œâ”€â”€ vehicle_form.php         # Formulaire ajout/Ã©dition vÃ©hicule
-â”‚   â”œâ”€â”€ vehicle_images.php       # Gestion des images par vÃ©hicule
-â”‚   â”œâ”€â”€ vehicle_gallery.php      # Galerie complÃ¨te
-â”‚   â”œâ”€â”€ import_vehicle_illustrations.php  # Import automatique d'images
-â”‚   â”œâ”€â”€ clients_manage.php       # Gestion des clients
-â”‚   â”œâ”€â”€ maintenance.php          # Maintenance vÃ©hicules
-â”‚   â””â”€â”€ database_maintenance.php # Maintenance base de donnÃ©es
-â”‚
-â”œâ”€â”€ ðŸ“‚ api/                      # API REST
-â”‚   â”œâ”€â”€ auth/                    # Authentification (login, register, OTP)
-â”‚   â”œâ”€â”€ vehicles/                # Gestion vÃ©hicules
-â”‚   â”‚   â””â”€â”€ image.php           # Endpoint pour servir images BLOB
-â”‚   â”œâ”€â”€ maintenance/             # Maintenance
-â”‚   â””â”€â”€ config/                  # Configuration API
-â”‚
-â”œâ”€â”€ ðŸ“‚ auth/                     # Pages d'authentification
-â”‚   â”œâ”€â”€ login.php               # Connexion
-â”‚   â”œâ”€â”€ register.php            # Inscription
-â”‚   â”œâ”€â”€ forgot_password.php     # Mot de passe oubliÃ©
-â”‚   â””â”€â”€ verify_code.php         # VÃ©rification OTP
-â”‚
-â”œâ”€â”€ ðŸ“‚ client/                   # Interface client
-â”‚   â”œâ”€â”€ client_dashboard.php    # Tableau de bord client
-â”‚   â”œâ”€â”€ select_vehicle.php      # Catalogue de vÃ©hicules
-â”‚   â”œâ”€â”€ my_vehicles.php         # Mes vÃ©hicules
-â”‚   â”œâ”€â”€ rent_or_buy.php         # Location/Achat
-â”‚   â””â”€â”€ rentals.php             # Historique locations
-â”‚
-â”œâ”€â”€ ðŸ“‚ config/                   # Configuration systÃ¨me
-â”‚   â”œâ”€â”€ config.example.php      # Configuration exemple
-â”‚   â”œâ”€â”€ database.example.php    # Connexion DB exemple
-â”‚   â”œâ”€â”€ session.php             # Gestion des sessions
-â”‚   â”œâ”€â”€ security.php            # Fonctions de sÃ©curitÃ©
-â”‚   â”œâ”€â”€ helpers.php             # Fonctions utilitaires
-â”‚   â””â”€â”€ ImageManager.php        # Classe de gestion images BLOB
-â”‚
-â”œâ”€â”€ ðŸ“‚ database/                 # Base de donnÃ©es
-â”‚   â”œâ”€â”€ vehicsmart.sql          # Structure complÃ¨te
-â”‚   â”œâ”€â”€ init_db.php             # Initialisation
-â”‚   â””â”€â”€ migrations/             # Migrations SQL
-â”‚       â””â”€â”€ add_blob_images.sql # Migration systÃ¨me BLOB
-â”‚
-â”œâ”€â”€ ðŸ“‚ assets/                   # Ressources statiques
-â”‚   â”œâ”€â”€ css/                    # Styles CSS
-â”‚   â”œâ”€â”€ js/                     # JavaScript
-â”‚   â””â”€â”€ images/                 # Images statiques
-â”‚
-â”œâ”€â”€ .gitignore                   # Fichiers ignorÃ©s par Git
-â”œâ”€â”€ README.md                    # Ce fichier
-â””â”€â”€ index.php                    # Page d'accueil
-
-```
-
----
-
-## ðŸš€ Installation
-
-### PrÃ©requis
-- **XAMPP** / **WAMP** / **MAMP** ou tout serveur PHP
-- **PHP** 8.2 ou supÃ©rieur
-- **MySQL** 8.0+ ou **MariaDB** 10.x
-- **Composer** (optionnel)
-- Navigateur moderne (Chrome, Firefox, Edge)
-
-### Ã‰tapes d'Installation
-
-#### 1. Cloner le projet
-```bash
-git clone https://github.com/votre-username/VehicSmart.git
-cd VehicSmart
-```
-
-#### 2. Configuration de la base de donnÃ©es
-```bash
-# CrÃ©er la base de donnÃ©es
-mysql -u root -p
 CREATE DATABASE vehicsmart CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 exit;
+```
 
-# Importer la structure
+```bash
 mysql -u root -p vehicsmart < database/vehicsmart.sql
 ```
 
-#### 3. Configuration des fichiers
+#### Step 3: Configuration
+
 ```bash
-# Copier les fichiers de configuration
 cp config/config.example.php config/config.php
 cp config/database.example.php config/database.php
-
-# Ã‰diter config/config.php avec vos paramÃ¨tres
-nano config/config.php
 ```
 
-**Modifier les valeurs:**
+Edit `config/config.php`:
+
 ```php
 define('DB_HOST', 'localhost');
-define('DB_PORT', '3306');        // 3307 pour certains XAMPP
+define('DB_PORT', '3306');
 define('DB_NAME', 'vehicsmart');
 define('DB_USER', 'root');
-define('DB_PASS', '');            // Votre mot de passe MySQL
+define('DB_PASS', '');
 ```
 
-#### 4. Migration systÃ¨me d'images BLOB
-```bash
-# Ouvrir dans le navigateur:
-http://localhost/VehicSmart/admin/migrate_images_blob.php
+#### Step 4: Image Migration
 
-# Cocher la case et cliquer "ExÃ©cuter la Migration"
-```
+Open: `http://localhost/VehicSmart-Management/admin/migrate_images_blob.php`
 
-#### 5. CrÃ©er un compte administrateur
-```bash
-# Via phpMyAdmin ou ligne de commande:
+✅ Check box and click **Execute Migration**
+
+#### Step 5: Create Admin
+
+```sql
 INSERT INTO users (username, email, password, role, is_verified)
 VALUES ('admin', 'admin@vehicsmart.com', SHA2('Admin123!', 256), 'admin', 1);
 ```
 
-#### 6. Importer des illustrations (optionnel)
-```bash
-# Ouvrir dans le navigateur:
-http://localhost/VehicSmart/admin/import_vehicle_illustrations.php
+#### Step 6: Import Illustrations (Optional)
 
-# Choisir "Illustrations SVG PersonnalisÃ©es" (recommandÃ©)
-# Cliquer "Importer les Illustrations"
-```
+Open: `http://localhost/VehicSmart-Management/admin/import_vehicle_illustrations.php`
 
-#### 7. AccÃ©der Ã  l'application
-```
-ðŸŒ Page d'accueil: http://localhost/VehicSmart/
-ðŸ‘¤ Espace client:  http://localhost/VehicSmart/client/client_dashboard.php
-ðŸ”§ Administration: http://localhost/VehicSmart/admin/dashboard.php
-```
+✅ Select **Custom SVG Illustrations**
 
----
+#### Step 7: Access
 
-## ðŸ” Comptes par DÃ©faut
+<div align="center">
 
-| RÃ´le | Email | Mot de passe | AccÃ¨s |
-|------|-------|-------------|--------|
-| **Admin** | admin@vehicsmart.com | Admin123! | Panel d'administration |
-| **Client** | client@example.com | Client123! | Espace client |
+| Portal | URL |
+|:------:|-----|
+| 🏠 Homepage | `http://localhost/VehicSmart-Management/` |
+| 👤 Client | `http://localhost/VehicSmart-Management/client/` |
+| 🔧 Admin | `http://localhost/VehicSmart-Management/admin/` |
 
-âš ï¸ **Important:** Changez ces mots de passe aprÃ¨s l'installation!
+</div>
 
 ---
 
-## ðŸ“– Utilisation
+## 🔐 Default Accounts
 
-### Administration
-1. **Connexion:** `admin/dashboard.php`
-2. **Ajouter un vÃ©hicule:** `admin/vehicle_form.php`
-3. **GÃ©rer les images:** `admin/vehicle_images.php?vehicle_id=X`
-4. **Voir la galerie:** `admin/vehicle_gallery.php`
+| Role | Email | Password |
+|:----:|-------|----------|
+| 👨‍💼 Admin | admin@vehicsmart.com | `Admin123!` |
+| 👤 Client | client@example.com | `Client123!` |
 
-### Client
-1. **Inscription:** `auth/register.php`
-2. **Connexion:** `auth/login.php`
-3. **Parcourir vÃ©hicules:** `client/select_vehicle.php`
-4. **RÃ©server:** Cliquer sur un vÃ©hicule â†’ "Rent or Buy"
+⚠️ **Change passwords after installation!**
 
 ---
 
-## ðŸŽ¨ SystÃ¨me d'Images BLOB
+## 🎯 Usage
 
-### Avantages
-- âœ… **Pas de dossier uploads** - Tout en base de donnÃ©es
-- âœ… **Sauvegarde simplifiÃ©e** - Une seule base de donnÃ©es
-- âœ… **SÃ©curitÃ© renforcÃ©e** - ContrÃ´le d'accÃ¨s centralisÃ©
-- âœ… **PortabilitÃ© totale** - DÃ©ploiement facile
+### For Administrators
+
+<table>
+<tr>
+<td width="50%">
+
+**1. Login**
+```
+admin/dashboard.php
+```
+
+</td>
+<td width="50%">
+
+**2. Add Vehicle**
+```
+admin/vehicle_form.php
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+**3. Manage Images**
+```
+admin/vehicle_images.php?vehicle_id=X
+```
+
+</td>
+<td>
+
+**4. View Gallery**
+```
+admin/vehicle_gallery.php
+```
+
+</td>
+</tr>
+</table>
+
+### For Clients
+
+<table>
+<tr>
+<td width="50%">
+
+**Registration**
+1. Go to `auth/register.php`
+2. Fill form
+3. Verify OTP
+4. Login
+
+</td>
+<td width="50%">
+
+**Rent Vehicle**
+1. Browse `client/select_vehicle.php`
+2. Use filters
+3. Select vehicle
+4. Complete booking
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎨 BLOB System
+
+### Why BLOB Storage?
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+**💾 Database**
+All in one place
+
+</td>
+<td width="25%" align="center">
+
+**🔒 Security**
+Centralized control
+
+</td>
+<td width="25%" align="center">
+
+**📦 Backup**
+One database dump
+
+</td>
+<td width="25%" align="center">
+
+**🚀 Deployment**
+No file issues
+
+</td>
+</tr>
+</table>
 
 ### API Endpoint
-```php
+
+```http
 GET /api/vehicles/image.php?id={image_id}
 
 Headers:
-  Content-Type: image/jpeg|png|svg+xml
+  Content-Type: image/jpeg | image/png | image/svg+xml
   Cache-Control: public, max-age=86400
 
 Response: Binary image data
 ```
 
-### Classe ImageManager
+### ImageManager Usage
+
 ```php
 $imageManager = new ImageManager($db);
 
-// Sauvegarder une image
-$imageManager->saveVehicleImage($vehicle_id, $file_data, $is_primary);
+// Save image
+$imageManager->saveVehicleImage($vehicleId, $fileData, $isPrimary);
 
-// RÃ©cupÃ©rer l'image d'affichage
-$image = $imageManager->getVehicleDisplayImage($vehicle_id);
+// Get display image
+$image = $imageManager->getVehicleDisplayImage($vehicleId);
 
-// Obtenir l'URL de l'image
-$url = $imageManager->getImageUrl($image_id);
+// Get image URL
+$url = $imageManager->getImageUrl($imageId);
 ```
 
 ---
 
-## ðŸ”§ Configuration AvancÃ©e
+## 🔧 Configuration
 
-### Modifier le port MySQL
-Si vous utilisez XAMPP avec MySQL sur le port 3307:
+### Change MySQL Port
+
 ```php
 // config/config.php
 define('DB_PORT', '3307');
 ```
 
-### Augmenter la limite d'upload
+### Increase Upload Limit
+
 ```php
 // config/config.php
-define('MAX_UPLOAD_SIZE', 10485760); // 10 MB
+define('MAX_UPLOAD_SIZE', 10485760);  // 10 MB
 ```
 
-### Activer le mode production
+### Production Mode
+
 ```php
 // config/config.php
 define('APP_ENV', 'production');
+define('DEBUG_MODE', false);
 ```
 
 ---
 
-## ðŸ› DÃ©pannage
+## 🐛 Troubleshooting
 
-### Erreur: "Connection failed"
-âœ… **Solution:** VÃ©rifiez les identifiants dans `config/config.php`
+<details>
+<summary><b>❌ Database Connection Failed</b></summary>
 
-### Images ne s'affichent pas
-âœ… **Solution:** ExÃ©cutez la migration `migrate_images_blob.php`
+**Solutions:**
+1. Check credentials in `config/config.php`
+2. Verify MySQL is running
+3. Test connection: `mysql -u root -p`
+4. Check port (3306 or 3307)
 
-### Erreur: "Session already active"
-âœ… **Solution:** DÃ©jÃ  corrigÃ© dans la derniÃ¨re version
+</details>
 
-### Port MySQL incorrect
-âœ… **Solution:** Changez `DB_PORT` dans `config/config.php`
+<details>
+<summary><b>🖼️ Images Not Displaying</b></summary>
 
----
+**Solutions:**
+1. Run migration: `admin/migrate_images_blob.php`
+2. Check table: `SHOW TABLES LIKE 'vehicle_images_blob';`
+3. Import illustrations
+4. Clear browser cache
 
-## ðŸ“Š Base de DonnÃ©es
+</details>
 
-### Tables Principales
-- `users` - Utilisateurs (admin, clients)
-- `vehicles` - VÃ©hicules disponibles
-- `vehicle_categories` - CatÃ©gories de vÃ©hicules
-- `vehicle_images_blob` - Images en BLOB
-- `rentals` - Historique des locations
-- `maintenance_records` - Entretiens
+<details>
+<summary><b>🔌 Wrong Port Error</b></summary>
 
-### Relations
-```
-users (1) ----< (N) rentals
-vehicles (1) ----< (N) rentals
-vehicles (1) ----< (N) vehicle_images_blob
-vehicle_categories (1) ----< (N) vehicles
+**Solution:**
+```php
+define('DB_PORT', '3307');  // Try 3307 if 3306 fails
 ```
 
----
-
-## ðŸ”’ SÃ©curitÃ©
-
-- âœ… **Prepared Statements** - Protection contre injection SQL
-- âœ… **Password Hashing** - SHA256 pour les mots de passe
-- âœ… **Session Security** - Tokens CSRF, validation stricte
-- âœ… **Input Validation** - Filtrage de toutes les entrÃ©es
-- âœ… **Role-Based Access** - ContrÃ´le d'accÃ¨s par rÃ´le (admin/client)
-- âœ… **HTTPS Ready** - Configuration SSL disponible
+</details>
 
 ---
 
-## ðŸš€ Performance
+## 📊 Database Schema
 
-### Optimisations ImplÃ©mentÃ©es
-- ðŸš€ **Cache HTTP** - 24h pour les images
-- ðŸš€ **Lazy Loading** - Images chargÃ©es Ã  la demande
-- ðŸš€ **SVG LÃ©ger** - <5 KB par illustration
-- ðŸš€ **Index Database** - RequÃªtes optimisÃ©es
-- ðŸš€ **PDO Prepared** - RequÃªtes prÃ©-compilÃ©es
+| Table | Description |
+|:-----:|-------------|
+| `users` | User accounts (admin/clients) |
+| `vehicles` | Vehicle inventory |
+| `vehicle_categories` | Vehicle types |
+| `vehicle_images_blob` | BLOB image storage |
+| `rentals` | Rental history |
+| `maintenance_records` | Maintenance logs |
 
-### MÃ©triques
-- Page d'accueil: ~0.5s
-- Dashboard: ~1s
-- Affichage images: ~0.3s
+### Schema Diagram
 
----
-
-## ðŸ“ Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de dÃ©tails.
-
----
-
-## ðŸ‘¨â€ðŸ’» Auteur
-
-**VehicSmart Development Team**
-
----
-
-## ðŸ¤ Contribution
-
-Les contributions sont les bienvenues! Pour contribuer:
-
-1. Fork le projet
-2. CrÃ©er une branche (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
-
----
-
-## ðŸ“ž Support
-
-Pour toute question ou problÃ¨me:
-- ðŸ“§ Email: support@vehicsmart.com
-- ðŸ› Issues: [GitHub Issues](https://github.com/votre-username/VehicSmart/issues)
-
----
-
-## ðŸ“… Changelog
-
-### Version 1.0.0 (2025-11-05)
-- âœ… SystÃ¨me de gestion de vÃ©hicules complet
-- âœ… Authentification sÃ©curisÃ©e avec OTP
-- âœ… SystÃ¨me d'images BLOB
-- âœ… Import automatique d'illustrations
-- âœ… Interface admin complÃ¨te
-- âœ… Espace client moderne
-- âœ… API REST optimisÃ©e
-
----
-
-**â­ N'oubliez pas de mettre une Ã©toile si ce projet vous aide!**
-   npm install -g typescript
-   
-   # Compile TypeScript to JavaScript
-   tsc app.ts
-   ```
-
-3. **Development**:
-   - For TypeScript changes, edit `app.ts` and recompile:
-     ```bash
-     tsc app.ts
-     ```
-   - For automatic compilation on file changes:
-     ```bash
-     tsc --watch app.ts
-     ```
-
-4. **Accessing the Site**:
-   - Start your XAMPP server
-   - Navigate to `http://localhost/VehicSmart/`
-
-## Sections Overview
-
-### 1. Hero Section
-- Dark background (#1c1c1e)
-- Bold white headline with accent color highlight
-- Call-to-action button with hover effects
-
-### 2. About Section
-- Light background (#f4f4f5)
-- Company mission and values
-- Professional tone and messaging
-
-### 3. Services Section
-- Grid layout showcasing 6 core services
-- Hover animations on service cards
-- Comprehensive service descriptions
-
-### 4. Vehicles Section
-- 8-vehicle grid with placeholder images
-- Hover scale animations
-- Different vehicle categories
-
-### 5. Testimonials Section
-- 3 customer testimonials
-- Social proof for credibility
-- Clean, readable format
-
-### 6. Contact Section
-- Contact form with real-time validation
-- Google Maps integration
-- Company contact information
-
-### 7. Footer
-- Dark background matching navigation
-- Centered white text
-- Copyright and legal links
-
-## TypeScript Features
-
-The `app.ts` file includes:
-
-- **Form Validation**: Real-time and submission validation
-- **Scroll Animations**: Intersection Observer API for reveal animations
-- **Smooth Scrolling**: Navigation link smooth scrolling
-- **Type Safety**: Full TypeScript typing for all functions
-- **Error Handling**: Comprehensive form error management
-
-## Customization
-
-### Colors
-Modify the Tailwind configuration in `index.php`:
-```javascript
-tailwind.config = {
-    theme: {
-        extend: {
-            colors: {
-                'primary-dark': '#1c1c1e',
-                'primary-light': '#f4f4f5',
-                'accent': '#ff7849',
-                'neutral': '#a1a1aa'
-            }
-        }
-    }
-}
+```
+┌─────────────┐         ┌──────────────────┐         ┌─────────────────────┐
+│    users    │────────▶│     rentals      │◀────────│      vehicles       │
+└─────────────┘         └──────────────────┘         └─────────────────────┘
+                                                               │
+                                                               ▼
+                                                      ┌─────────────────────┐
+                                                      │ vehicle_images_blob │
+                                                      └─────────────────────┘
 ```
 
-### Content
-- Update text content directly in `index.php`
-- Modify form fields in the contact section
-- Replace placeholder images with real vehicle photos
+---
 
-### Animations
-- Adjust scroll reveal timing in `app.ts`
-- Modify hover effects in the CSS classes
-- Customize transition durations
+## 🔒 Security
 
-## Browser Support
+<table>
+<tr>
+<td width="50%">
 
-- Modern browsers supporting ES2020
-- Internet Explorer 11+ (with polyfills)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+### Protection
 
-## Performance
+- 🔐 SQL Injection → PDO Prepared Statements
+- 🔒 Passwords → SHA256 Hashing
+- 🎫 Sessions → Secure HTTPOnly
+- ✅ Input → Server-side validation
+- 🚫 XSS → Output escaping
 
-- Tailwind CSS loaded from CDN
-- Optimized images (placeholders used)
-- Minimal JavaScript footprint
-- Semantic HTML for accessibility
+</td>
+<td width="50%">
 
-## License
+### Access Control
 
-This project is open source. Feel free to use and modify as needed.
+- 🔐 Role-Based Access
+- 🔑 Email Verification
+- 🚪 Page Restrictions
+- 📝 Audit Logs
+- 🔑 OTP System
 
-## Support
+</td>
+</tr>
+</table>
 
-For questions or issues, please contact the development team.
+---
 
+## ⚡ Performance
+
+| Page | Load Time | Status |
+|:----:|:---------:|:------:|
+| 🏠 Homepage | 0.8s | ✅ Excellent |
+| 📊 Dashboard | 1.2s | ✅ Good |
+| 🖼️ Gallery | 1.5s | ✅ Good |
+| 🔍 Search | 0.9s | ✅ Excellent |
+
+### Optimizations
+
+```
+✅ HTTP Caching (24h)
+✅ Query Optimization
+✅ Lazy Loading
+✅ SVG Compression
+✅ Gzip Compression
+```
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/Amazing`
+3. Commit changes: `git commit -m '✨ Add Amazing'`
+4. Push: `git push origin feature/Amazing`
+5. Open Pull Request
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+<div align="center">
+  <img src="https://i.imgur.com/it4eeom.png" alt="VehicSmart Homepage" width="800"/>
+</div>
+
+### Admin Dashboard
+<div align="center">
+  <img src="https://i.imgur.com/7XXa3JW.png" alt="Admin Dashboard" width="800"/>
+</div>
+
+### Admin - Vehicle Management
+<div align="center">
+  <img src="https://i.imgur.com/V9W1TZZ.png" alt="Admin Vehicle Management" width="800"/>
+</div>
+
+### Admin - Vehicle Gallery
+<div align="center">
+  <img src="https://i.imgur.com/EM1BFse.png" alt="Admin Vehicle Gallery" width="800"/>
+</div>
+
+### Client Dashboard
+<div align="center">
+  <img src="https://i.imgur.com/ABoGFmL.png" alt="Client Dashboard" width="800"/>
+</div>
+
+### Client - Vehicle Catalog
+<div align="center">
+  <img src="https://i.imgur.com/aeyZ9aW.png" alt="Vehicle Catalog" width="800"/>
+</div>
+
+### Client - Vehicle Details
+<div align="center">
+  <img src="https://i.imgur.com/6aaS1TX.png" alt="Vehicle Details" width="800"/>
+</div>
+
+---
+
+<div align="center">
+
+**Developed by Mohammed ES**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,10&height=100&section=footer" alt="Footer Wave" />
+
+</div>
